@@ -1,0 +1,4 @@
+PCView.batをCドライブの直下に保存していただきショートカットを
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+に置いてください。
+

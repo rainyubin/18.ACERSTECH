@@ -1,0 +1,10642 @@
+マーズ 于　斌
+yunxiaoxin23@yahoo.co.jp
+katsuaki.tsuchitani@unisys.co.jp
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+富塚さん
+
+お疲れ様です。
+于です。
+
+週次作業実績報告書は送付いたします。
+ご確認お願いします。
+
+以上、よろしくお願いいたします。
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+NET:
+tnv-ap4_A
+
+PC:
+user:user1
+password:null
+
+ip address:
+リンクローカル IPv6 アドレス. . . . .: fe80::b503:a5e7:924f:d0fa%11
+IPv4 アドレス . . . . . . . . . . . .: 192.1.108.140
+サブネット マスク . . . . . . . . . .: 255.255.255.0
+デフォルト ゲートウェイ . . . . . . .: 192.1.108.254
+
+
+Ctrlキーが押し続ける状態を解除：
+コントロールパネル
+⇒コンピューターの簡単操作センター
+⇒コンピューターでの作業に集中しやすくします
+⇒固定キー機能を設定します⇒オプション
+⇒Ctrl、Alt、Shift、Windowsロゴキーを2回続けて押すとそのキーをロックしますのチェックを外す
+
+
+w3wp.exeは複数のアプリケーションプールがあればISS.のアプリケーションプール、と関連付けられるプロセス持っているw3wp.exeの実行の複数の例をである。 このプロセスは通常多量のリソースを割り当てる。 このプログラムはコンピュータの安定した、安全な実行のために重要、終わるべきではない。
+w3wp.exe是ISS工具的一部分, IIS中的每个应用程序池由一个“工作进程”分别进行管理，也就是W3wp.exe 
+
+VIM：
+set enc=utf-8
+set fenc=utf-8
+set nu
+set nowrap
+set noundofile
+set nobackup
+set noswapfile
+set lines=35
+set columns=125
+winpos 0 0
+
+
+メーリングリスト登録しました。
+tnv65_domestic@ml.unisys.co.jp
+
+障害管理を行うツールの
+PM-SUITEの　ID登録を行いました。
+ID　/　初期パスワードは、以下の通りです。
+​rainyubin　/　Rainyubin@20180604
+yunxiaoxin　/　Yunxiaoxin@20180604
+shunkou / Shunkou@20180604
+
+操作は、
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\01プロジェクト管理資料\02_品質管理計画書＆品質評価報告書\現工程_品質管理運用プロセス兼操作解説
+下の
+01【PM-Suite】品質管理運営資料_結合テスト工程（TNV）V1.3版_20171013.xlsx
+6.１ログイン操作
+を参照下さい。
+
+個別登録ID(独自)によるログインの場合
+https://pm-suite-nx.unisys.co.jp/m-suite/O/
+「P0167」を入力
+rainyubin
+!Qazxsw2
+
+
+
+
+C:\tnv65-hybrish-source-github
+tnv65-hybrish-document-github
+
+
+
+リモートデスクトップ：
+\\192.1.107.238
+Administrator
+Password01
+
+DB
+192.1.107.245
+
+SQL Server 数值四舍五入，小数点后保留2位
+1.round() 函数是四舍五入用，第一个参数是我们要被操作的数据，第二个参数是设置我们四舍五入之后小数点后显示几位。
+2.numeric 函数的2个参数，第一个表示数据长度，第二个参数表示小数点后位数。
+例如：
+　　select   cast(round(12.5,2)   as   numeric(5,2))  结果：12.50
+　　select   cast(round(12.555,2)   as   numeric(5,2))  结果：12.56
+　　select   cast(round(122.5255,2)   as   numeric(5,2)) 结果：122.53
+　　select   cast(round(1222.5255,2)   as   numeric(5,2)) 结果：报错了！ 原因是：1222.5255，整数位是4，小数位是2，加起来4+2=6，超出了numeric设置的5位，所以为了保险，可以增减numeric的参数，例如numeric(20，2)。
+
+
+
+メール：
+新規参入者向けDaily作業
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\88事務資料\Daily作業（新規参入者向け）\Daily作業（新規参入者向け）.xlsx
+この中で
+・利用状況管理表に日々の入退館時刻を記入
+・PM-SUITEに品質情報を入力
+が必要です。
+
+
+高山開発室入退室の時刻を入力する
+\\192.1.107.224\開発室運用\010.利用状況管理表\ユニシス様_勤務時間\利用状況管理表＆残業時間.xlsx
+
+作業タスクに関する実績時間を入力する
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\10要件定義工程\TNV65要件定義\99ＰＭ－ＳＵＩＴＥ\運営資料\01【PM-Suite】進捗管理運営資料_要件定義工程（TNV）.xlsx
+１．各個人のＩＤ、パスワードでPM-SUITEにログイン
+２．割り当たてられているタスクの実績入力を行う
+
+作成物に関する品質情報を入力する
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\01プロジェクト管理資料\02_品質管理計画書＆品質評価報告書\現工程_品質管理運用プロセス兼操作解説\01【PM-Suite】品質管理運営資料_結合テスト工程（TNV）V1.3版_20171013.xlsx
+１．各個人のＩＤ、パスワードでPM-SUITEにログイン
+２．作成物単位に不具合情報等レビュー結果入力を行う
+
+高山開発室以外の行動場所を入力する
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\88事務資料\論理設計工程常駐者予定表（2016年9月以降）.xls
+
+
+
+
+
+软件：
+\\192.1.107.224\開発室運用\200.共有\TIO様\010.tnv65\999.その他\500.Tools
+
+代码路径：
+C:\tnv65-hybrish-document-github
+
+个人用文件夹：
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\20論理設計工程\ユニシスワーク\ＥＡＩ\チーム内work\99.個人wk\11_于
+
+业务个人用文件夹：
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\20論理設計工程\ユニシスワーク\商流\商流チームWork\于斌
+
+論理設計書：
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\20論理設計工程\ユニシスワーク\商流\論理設計書作成
+
+週次報告
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\20論理設計工程\ユニシスワーク\ＥＡＩ\チーム内work\99.個人wk\02.村木\mars週次報告
+
+GitHub_修正手順
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\83_GitHub
+https://github.com/TNV65-project/tnv65-hybrish-source-github/branches
+ユーザID:
+usol04
+パスワード
+usol04@1
+
+
+
+
+
+
+TNVのIE設定：
+1、IEのツールの互換表示設定にアドレスを追加。
+2、インターネットオプションの「セキュリティ」タブに信頼済みサイトを選択して、「サイト」ボタンを押して、
+　　アドレスを追加したら、コンボネットがダウンロードできる。
+　　【追加できなければ、下のチェックを外してもう一回追加していい】
+
+
+
+作業手順：
+①サーバの個人用フォルダから美濃さんのファイルをもらう。
+「TNV障害 #9076_ユニシス証跡.xlsx」とは、不具合の指摘内容だ。
+↓
+②RedmineでPM-SUITE障害ID（SEQ013408O）を確認できる。
+http://192.1.107.200/redmine/issues/9076
+unisys05
+unisys05
+【unisys01もできる】
+↓
+③PM-SUITEのアドレスを開いて、
+https://pm-suite-nx.unisys.co.jp/m-suite/M/MZA/MZA01.do?op=displayLogin
+プロジェクト識別子は下の通りに設定：
+P0167
+rainyubin
+!Qazxsw2
+↓
+④IEでHybrishサイトを開いて、不具合再現できる。
+http://192.1.107.238/XERP/
+メイン画面で下のように設定：
+CLIENT:TNV_OM【マスタチーム用】     TNV_UK_NUL_245
+SITE:高山
+LANGUAGE:Japanese
+USER ID:jyosys
+PASSWORD:jyosys
+↓
+⑤検索テキストボックスに「マスタデータ一括出力」（Redmineの詳細）で検索して、
+画面表示後、右クリック⇒プロパティのID（画面ID：OM442）を覚える
+↓
+⑥もう一度検索テキストボックスに「取引先マスタ」（TNV障害 #9076）で検索して、
+画面表示後、取引先コードは「2001077」（TNV障害 #9076の「検証結果_詳細」）を入力して検索
+↓
+⑦左下の取引先を選択して「経理専用２」（TNV障害 #9076）をクリックして、
+画面表示後、「金利割戻率」（TNV障害 #9076）を確認できる
+経理専用２の画面で右クリックしてプロパティのアドレスに「OM400」が取得し、サーバから仕様書を取得
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\20論理設計工程\ユニシスワーク\商流\論理設計書作成
+全部で「OM400」で検索して、一番新しいファイルの所在フォルダを開いて、仕様書を開く
+論理設計書_OM400_取引先マスタ（変更管理№0053、0054、0066、0067、0073、0075）【障害対応依頼】.xlsx
+↓
+⑧もし修正できなければ、「Microsoft SQL Server Management Studio 17」でDBから修正する
+Server　type:Database Engine
+Server name:192.1.107.245
+Authentication:SQL Server Authentication
+Login:sa
+Password:Password01
+↓
+⑨論理設計書_OM400_取引先マスタにの「3章 処理説明書（変更管理）」シートに
+「金利割戻率」で検索して、テーブル名と項目名が分かる
+↓
+⑩値は下記のように修正（「テーブル定義書_高山.xlsx」を参考できる）
+select C_InterestRebatesRate, * from csmaster
+where cscode = '200107701'
+update csmaster set C_InterestRebatesRate = 1.5 where cscode = '200107701'
+【C:\Windows\System32\XERPClients.ini】でDBの情報を追加して、選択できる
+↓
+⑪Hybrishサイトで「マスタデータ一括出力」画面へ移動して、Excelでダウンロードできる
+↓
+⑫取引先区分がすべて選択し、取引先コードを入れてダウンロード
+↓
+⑬Excelに違った値があり、画面により修正
+
+
+
+
+
+GITの手順：
+
+注意点：
+➀ローカルのフォルダは絶対コピーしなくて、サーバから新しいフォルダをダウンロード
+②developの切り替えの時、新しいクローンを作っていい
+③もしローカルにmasterとdevelopのBranchを立ち上がったら、今後Switchの時に、新しいBranchを作らない（或いは切り取りのソースをCの直下に移動して使う）
+
+
+クローンの手順：
+①任意の場所にて右クリックし、Git Clone を選択
+【※ Proxyの設定
+http://tmwproxy01.takayama-inf.com
+81
+修正担当者の名前、メールアドレスを入力。
+下記はイメージです。自分の名前を入力してください。
+】
+↓
+②下の二つを設定
+URL:https://github.com/TNV65-project/tnv65-hybrish-source-github.git
+
+
+
+
+ブランチ：master
+
+
+↓
+③（初回のみ） User & Password を入力します。
+
+
+
+
+
+
+
+
+
+
+
+
+
+Username：usol04
+Password：usol04@1
+↓
+④ソースコードが正常に取得できたことを確認。
+
+
+
+修正手順：
+①SEQ013408Oの障害を対応するとします。
+↓
+②現在ブランチが “master”であることを確認する。
+現在ブランチが “master” でない場合、masterブランチに切り替える。
+↓
+③ローカルのmasterブランチが古い場合は、ブランチ作成する前に Pull して、masterブランチを最新化する。
+(1日1回で十分）
+↓
+④新しいブランチの名前に障害IDを入力し、OKを押下すると障害ブランチが作成されます。
+↓
+⑤プログラム修正を行い、コミットします。
+web.configにdebugの値はtrueに修正
+デバッグの時に、アタッチのプロセス名は「w3wp.exe」と接続
+エビデンスとソースの修正したところが必要
+↓
+⑥Commit 後、Pushを選択します。
+そのままOK押下します。
+↓
+⑦Pushが正常終了した場合、Pull Requestを作成します。
+GitHubにログインします。
+https://github.com/TNV65-project/tnv65-hybrish-source-github/branches
+usol04
+usol04@1
+↓
+⑧自分のブランチを探して、 New pull request を選択します。（下記はイメージ）
+↓
+⑨重要：base を　develop　に変更し、Create pull request を選択します。
+Base を develop に変更します。(masterにはマージしない）
+↓
+⑩Merge pull request ボタンを押下する。
+ステータスが Open から Merged になったら完了。
+【※競合が発生した場合、【競合解消】を参照
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+】
+↓
+⑪修正したものを UpgradeList に記入する、【コピーした後で、最後のOKチェックを削除】
+\\192.1.107.245\c$\work\01.UpgradeList
+ID: Administrator
+PASS: Password01
+COMMIT NOはGitログの「2e197a6c588cdd2244d67dd4afb2262d840dc41c」のような乱数で入力
+修正後に、再修正が必要な場合は、「プログラム修正を行い、コミットします。」のステップから実施する。
+
+※競合が発生する可能性があるため、同じ障害番号は基本、複数ブランチを作成しない。
+
+※develop ブランチへの直接コミット、またはdevelopからブランチを作成して差し戻し分を修正しない。
+
+
+必ず上記で作成した障害ブランチからマージすること。
+↓
+⑫PM-SUITEのアドレスを開いて、
+https://pm-suite-nx.unisys.co.jp/m-suite/M/MZA/MZA01.do?op=displayLogin
+プロジェクト識別子は下の通りに設定：
+P0167
+rainyubin
+!Qazxsw2
+障害IDにより、基本情報の「障害ステータス」と原因・対応の「障害対応責任者の要員名」と「原因内容」を入力
+もし、障害登録者がいなければ、メールのタブで入れなければならない
+
+
+Git command手順：
+➀git clone https://github.com/TNV65-project/tnv65-hybrish-source-github.git
+↓
+②git branch xxxxxx
+↓
+③git checkout xxxxxx
+↓
+④ソース修正
+↓
+⑤git commit -m "zzzzzz"
+↓
+⑥git push
+↓
+⑦ウェブでcreate pull request【競合なければ、終了】
+↓
+⑧競合あれば、解決
+↓
+⑨git merge xxxxxx【base：develop】
+↓
+⑩git checkout --ours or --theirs
+↓
+⑪ソースマージ
+↓
+⑫git diff
+↓
+⑬git commit -m "zzzzzz"
+↓
+⑭git push
+↓
+⑮git pull
+↓
+⑯git push
+
+
+
+
+UpgradeListの記入手順：
+①NO.は連番　7790
+②障害管理No　SEQ013837O
+③MD(モジュール)　OM
+④FORMID　OM422
+⑤REQUEST.DATE(修正依頼日)　2018/6/5
+⑥UP. DATE(修正日)　2018/6/5
+⑦COMMIT NO　2e197a6c588cdd2244d67dd4afb2262d840dc41c
+⑧TYPE　FORM
+"web\TNV\glb\OM\OM422\OM422_jpn.resx
+web\TNV\glb\OM\OM442\OM442_2.aspx.cs"
+⑨ＲＩＳ 美濃　悠介
+⑩ＲＩＳ 美濃　悠介
+⑪マーズ 于　斌
+⑫マーズ 于　斌
+
+
+
+競合解消手順：
+①競合が発生した場合
+↓
+②GitHub の Resolve conflicts で解消しないこと！！
+ローカルのブランチを develop に切り替えてから、マージを実施。
+切り替えた後に Pull してローカルを最新化する。
+↓
+③TortoiseGit => Merge を選択・・
+↓
+④develop にマージしたいブランチ（自分が作成した障害ブランチ）を選択する。
+↓
+⑤競合しているファイル一覧が表示されるので、差分を確認し競合を解消する。
+（解消方法については、ケースバイケースのため、ここでは省略する）
+↓
+⑥解消が完了したらCommit、そしてPush。
+↓
+⑦プッシュすると GitHub上のステータスが Merged に変更。
+
+
+
+
+ExpressProfiler22wAddinSignedでSQL文を探索した手順：
+⓵ソフトを開く
+↓
+②Server,User,Passwordを入力して、Start traceをクリック
+↓
+③Filterをクリックして、DatabaseNameのValueに「TNV_OM」を入力して、Runをクリック
+↓
+④Clear traceをクリックして、画面が空にする
+↓
+⑤プロジェクトの検索ボタンを押したら、SQL文が表示される
+↓
+⑥全てのSQL文を選択して、下の窓口のSQL文をコピー
+↓
+⑦Microsoft SQL Server Management Studioに貼り付けて、実行
+↓
+⑧結果を出たら、欲しいデータの番号が分かったら、そのSQL文を使う
+↓
+⑨結合条件を見て、すぐどこのデータを修正すれば分かった
+
+
+
+
+mklink /j C:\inetpub\wwwroot C:\tnv65-hybrish-source-github\web
+ソースの構造：
+【TNV】\web\TNV\TNV.sln
+【TNVSVC】\web\TNVSVC\TNVSVC.sln
+【TNVCommonFunctionLibrary】\web\TNVCommonFunctionLibrary\TNVCommonFunctionLibrary.sln
+【XERP】\web\XERP\XERP.sln
+【XERPSVC】\web\XERPSVC\XERPSVC.sln
+【BatchCommonFunctionLibrary】\web\BCFLForBridge\BCFL.sln
+【GSK】\web\GSK\GSK.sln
+【GSK_all】\web\GSK\GSK_all.sln
+【GSKCommonFunctionLibrary】\web\GSKCommonFunctionLibrary\GSKCommonFunctionLibrary.sln
+【GSKSVC】\web\GSKSVC\GSKSVC.sln
+【MKIEOJSVC】\web\MKIEOJSVC\MKIEOJSVC.sln
+【バッチ】\Batch\BCommon\BCommon.sln
+【BCFL】\Bridge\src\BCFL\BCFL.sln
+【ActiveX】\ClientControl\Hybrish5.ActiveX\Hybrish5.ActiveX.sln
+【ExGridCtrl】\WebServerControl\ExGridCtrl\ExGridCtrl.sln
+【Migration】\WebServerControl\Migration\Migration.sln
+【Excelテンプレート（Format）】\web\XERP\Excel\Format
+【PrintCtrl】\WebServerControl\PrintCtrl\PrintCtrl.csproj
+WebServerControl
+
+TNV_UK_NUL_245
+
+
+
+Microsoft SQL Server 2016 (SP1-CU2) (KB4013106) - 13.0.4422.0 (X64)   Mar  6 2017 14:18:16   Copyright (c) Microsoft Corporation  Standard Edition (64-bit) on Windows Server 2012 R2 Standard 6.3 <X64> (Build 9600: ) (Hypervisor) 
+
+
+C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\Ssms.exe
+
+
+C:\Program Files\Microsoft SQL Server\MSSQL13.MSSQLSERVER\MSSQL\Binn
+
+
+
+IE⇒ツール⇒F12開発者ツール⇒右上のドキュメントモードで「5」を選択
+
+
+C:\Windows\System32\XERP.ini
+
+C:\tnv65-hybrish-document-github\web\TNVCommonFunctionLibrary\TCFL.cs
+CreateExcelFileFromEncodedData
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ013408O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+[TNV_TEST_OM]
+Name = TNV_TEST_OM
+DBServer =  192.1.107.245
+UserID = sa
+Password = Password01
+DataBase = TNV_OM
+DBKind = SQLOLEDB
+Use = Y
+DomainName = 192.1.107.245
+
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\YuB_SEQ013408O\tnv65-hybrish-source-github\web
+
+YuB_SEQ013408O
+
+//取引先マスタ　↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+----//2018/06/04　USOL-V Yub
+UPD
+Start(SEQ013408Oの対応)
+
+// 2018/6/5　MARS YuB UPD　Start(SEQ013408Oの対応)
+// 2018/6/5　MARS YuB UPD　End(SEQ013408Oの対応)
+
+
+
+
+//2018/06/04　USOL-V Yub
+UPD
+Start(SEQ013408Oの対応)
+if (273 == j)
+{
+
+alCSVdata.Add(Convert.ToDouble(alData[j + 4 + i * iColumnNumber]).ToString("0.00"));
+}
+else
+{
+
+//2018/04/16　USOL-V TuanDV
+UPD
+Start(SEQ012498Oの対応)
+
+//alCSVdata.Add("\"" + alData[j + 4 + i * iColumnNumber] + "\"");
+
+alCSVdata.Add(alData[j + 4 + i * iColumnNumber]);
+
+//2018/04/16　USOL-V TuanDV
+UPD
+End (SEQ012498Oの対応)
+}
+//2018/06/04　USOL-V Yub
+UPD
+End(SEQ013408Oの対応)
+
+
+
+
+
+alCSVdata.Add(alData[j + 4 + i * iColumnNumber]);
+TCFL.R()
+
+(int)GetIndexOfItemUpload.OM400.C_InterestRebatesRate
+
+
+
+//2018/06/04　USOL-V Yub
+UPD
+Start(SEQ013408Oの対応)
+if ((int)GetIndexOfItemUpload.OM400.C_InterestRebatesRate == j)
+{
+
+alCSVdata.Add(Convert.ToDouble(alData[j + 4 + i * iColumnNumber]).ToString("0.00"));
+}
+else
+{
+
+//2018/04/16　USOL-V TuanDV
+UPD
+Start(SEQ012498Oの対応)
+
+//alCSVdata.Add("\"" + alData[j + 4 + i * iColumnNumber] + "\"");
+
+alCSVdata.Add(alData[j + 4 + i * iColumnNumber]);
+
+//2018/04/16　USOL-V TuanDV
+UPD
+End (SEQ012498Oの対応)
+}
+//2018/06/04　USOL-V Yub
+UPD
+End(SEQ013408Oの対応)
+
+
+
+
+取引先コード 200107701
+
+
+--経理専用　１
+
+C_AddRebateRate
+
+NG　追加割戻率　画面で四捨五入の3.12500000⇒3.13、Excelで切り捨ての3.12500000⇒3.12
+
+ダウンロード
+OM442_1.aspx
+
+画面表示：
+OM400_Acc1Popup.aspx
+txtSalAddRate
+CFL.R(alData[15].ToString(), 2, 0).ToString()
+
+
+
+
+--経理専用　２
+
+C_InterestRebatesRate
+
+NG　金利割戻率　画面で四捨五入の1.125⇒1.13、Excelでそのまま1.125⇒1.125
+
+ダウンロード
+OM442_1.aspx
+
+画面表示：
+OM400_Acc2Popup.aspx
+lblInterestRebatesRate
+string.Concat(CFL.R(alData[15].ToString(), 2, 0).ToString(), "％");
+
+
+
+//2018/06/06 MARS YuB UPD Start(SEQ013408Oの対応)
+//2018/06/06 MARS YuB UPD End(SEQ013408Oの対応)
+
+
+取引先マスタ20180606140629.xlsx
+
+//取引先マスタ　↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+//商品マスタ　↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+ヘッダー
+OM422_HD.aspx
+左下
+OM422_Data.aspx
+右下
+OM422_Main.aspx
+
+ダウンロード
+OM442_2.aspx
+
+マーズ 于　斌
+
+事業所　508
+松本営業所
+仕入先コード　2000111
+高山商品コード　0001110301800
+商品名漢字　アルプス雷鳥
+
+
+
+--［基本１］タブ
+商品マスタ_商品060501.xlsx
+
+OK　⓵標準売価　画面で切り捨ての11.12500000⇒11.12、Excelで切り捨ての11.12500000⇒11.12
+NG　②商品サイズ　小数1桁だけ　画面で四捨五入の**.15000000⇒**.2、Excelで未出力
+
+⓵標準売価 365
+
+C_ListPrice
+
+OM422_Main.aspx
+// 標準売価
+txtListPrice.Text = alData[18].ToString();
+
+画面Load
+C_omItemMaster.asmx.cs
+
+
+DB取得して、Excelへ出力
+C_omDownloadMaster.asmx.cs　1276
+
+alDataCols[39]
+alDataProductMaster[44]
+
+
+
+②商品サイズ　442
+
+C_IndividualSizeL
+
+C_IndividualSizeW
+
+C_IndividualSizeH
+
+OM422_Main.aspx
+txtCaseSize.Text = sbCaseSize.Append(!string.IsNullOrWhiteSpace(strCaseSizeL) ? CFL.R(CFL.Tod(strCaseSizeL), 1, 0).ToString() : string.Empty)
+
+
+
+
+
+
+
+
+.Append((!string.IsNullOrEmpty(strCaseSizeL) && (!string.IsNullOrEmpty(strCaseSizeW) || !string.IsNullOrEmpty(strCaseSizeH))) ? " ｘ " : string.Empty)
+
+
+
+
+
+
+
+
+.Append(!string.IsNullOrWhiteSpace(strCaseSizeW) ? CFL.R(CFL.Tod(strCaseSizeW), 1, 0).ToString() : string.Empty)
+
+
+
+
+
+
+
+
+.Append((!string.IsNullOrEmpty(strCaseSizeW) && !string.IsNullOrEmpty(strCaseSizeH)) ? " ｘ " : string.Empty)
+
+
+
+
+
+
+
+
+.Append(!string.IsNullOrWhiteSpace(strCaseSizeH) ? CFL.R(CFL.Tod(strCaseSizeH), 1, 0).ToString() : string.Empty).ToString();
+
+DB取得して、Excelへ出力
+C_omDownloadMaster.asmx.cs　1277
+
+//2018/06/07 MARS YuB UPD Start(SEQ013408Oの対応)
+//2018/06/07 MARS YuB UPD End(SEQ013408Oの対応)
+
+
+Column_name
+Type
+Computed
+Length
+Prec
+Scale
+
+C_ListPrice
+numeric
+no
+13
+28   
+8    
+
+
+整数だけ：
+C_ListPrice　65111256565656565656.00000000
+整数未満：
+C_ListPrice　11125.65656566
+小数あり：
+C_ListPrice　65111256565656565656.65656566
+小数未満：
+C_ListPrice　65111256565656565656.65000000
+整数と小数両方未満：
+C_ListPrice　11125.65600000
+
+結果：
+Lengthは存储字节数，意味がないです。
+Precは小数点以外の桁数が全部「28」です。
+Scaleは小数の桁数が「8」です。
+
+Length存储字节数：
+Prec精度  存储字节数
+1-9      5
+10-19    9
+20-28    13
+29-38    17
+
+
+
+--［単価情報］タブ
+
+C_StorePurPrice
+C_DirectPurPrice
+
+C_StoreRebateRateAP
+
+C_StoreRebateRateAY
+
+C_StoreRebateRateAI
+
+C_StoreRebateRateBP
+
+C_StoreRebateRateBY
+
+C_StoreRebateRateBI
+
+C_DirectRebateRateAP
+
+C_DirectRebateRateAY
+
+C_DirectRebateRateAI
+
+C_DirectRebateRateBP
+
+C_DirectRebateRateBY
+
+C_DirectRebateRateBI
+
+
+商品マスタ_単価060502.xlsx
+
+NG　画面で四捨五入の342.12500000⇒342.13、Excelで切り捨ての342.12500000⇒342.12
+
+OM422_Main.aspx
+sbCaseSize.Append(!string.IsNullOrWhiteSpace(strCaseSizeL) ? CFL.R(CFL.Tod(strCaseSizeL), 1, 0).ToString() : string.Empty)
+
+店入 仕入単価 16
+
+直送 仕入単価 19
+店入割戻率A（％引） 20
+店入割戻率A（￥引） 21
+店入割戻率A（バラ引） 22
+店入割戻率B（％引） 23
+店入割戻率B（￥引） 24
+店入割戻率B（バラ引） 25
+直送割戻率A（％引） 26
+直送割戻率A（￥引） 27
+直送割戻率A（バラ引） 28
+直送割戻率B（％引） 29
+直送割戻率B（￥引） 30
+直送割戻率B（バラ引） 31
+
+//2018/06/07 MARS YuB UPD Start(SEQ013408Oの対応)
+//2018/06/07 MARS YuB UPD End(SEQ013408Oの対応)
+
+//商品マスタ　↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+//得意先商品変換マスタ　↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+C_CustSalPrice
+
+事業所　505
+東京支店
+得意先　175500000004
+得意先商品情報　ＪＡＮコード　JAN1
+髙山商品情報　ＪＡＮコード　4900353820194
+髙山商品情報　代表商品コード　0003538201900
+髙山商品情報　髙山商品コード　0003538201900
+
+
+
+
+得意先商品変換マスタ20180605203053.xlsx
+
+OK　①単位　小数1桁数　画面でそのまま20.2⇒20.2、Excelでそのまま20.2⇒20.2
+NG　②単価　画面で小数が「00」で80.12500000⇒80.00、Excelで最後の「0」を切り捨ての80.12500000⇒80.125
+
+画面
+SD407.aspx
+
+ダウンロード
+OM442_4.aspx
+
+DB操作：
+C_sdCsExchangeMaster.asmx.cs
+
+13
+alData[17]
+得意先商品変換マスタ20180607152952.xlsx
+
+!string.IsNullOrEmpty(strURLProduct) 
+
+//2018/06/07 MARS YuB UPD Start(SEQ013408Oの対応)
+//2018/06/07 MARS YuB UPD End(SEQ013408Oの対応)
+
+
+//得意先商品変換マスタ　↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+//得意先単価マスタ　↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+C_DeliveryWhSalPrice
+
+C_DeliveryWhSalBaseRate
+
+C_DeliveryWhSalAddRate
+C_DirectDeliSalPrice
+
+C_DirectDeliSalBaseRate
+C_CustOrderUnit
+
+
+
+事業所　508
+松本営業所
+得意先　122810090042
+
+得意先単価マスタ20180606104814.xlsx
+
+63.12500000
+1.21500000
+2.41500000
+58.71500000
+2.31500000
+12.15000000
+
+NG　①倉出原単価 画面で切り捨ての63.12500000⇒63.12、Excelで四捨五入の63.12500000⇒63.13
+OK　②倉出基本割戻率 画面で四捨五入の1.21500000⇒1.22、Excelで四捨五入の1.21500000⇒1.22
+OK　③倉出上乗割戻率 画面で四捨五入の2.41500000⇒2.42、Excelで四捨五入の2.41500000⇒2.42
+NG　④直送原単価 画面で切り捨ての58.71500000⇒58.71、Excelで四捨五入の58.71500000⇒58.72
+OK　⑤直送基本割戻率 画面で四捨五入の2.31500000⇒2.32、Excelで四捨五入の2.31500000⇒2.32
+OK　⑥得意先発注単位 画面で四捨五入の12.15000000⇒12.2、Excelで四捨五入の12.15000000⇒12.2
+
+C_DeliveryWhSalPrice　23
+,C_DeliveryWhSalBaseRate 24
+,C_DeliveryWhSalAddRate 25
+,C_DirectDeliSalPrice 28
+,C_DirectDeliSalBaseRate 29
+,C_CustOrderUnit 34
+
+画面
+SD480_Data.aspx
+
+ダウンロード
+OM442_5.aspx
+
+得意先単価マスタ20180607160952.xlsx
+
+//2018/06/07 MARS YuB UPD Start(SEQ013408Oの対応)
+//2018/06/07 MARS YuB UPD End(SEQ013408Oの対応)
+
+
+
+//得意先単価マスタ　↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+//得意先入数マスタ　↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+C_ItemPackage1Qty 12
+C_TotalIndQty
+
+事業所　508
+松本営業所
+得意先　122810090042
+
+得意先入数マスタ20180606114253.xlsx
+
+NG　➀入数１（荷姿）　画面で小数が切り捨ての12.55500000⇒12、Excelで四捨五入の12.55500000⇒12.6
+NG　②総バラ数　画面で小数が四捨五入の120.52500000⇒121、Excelで四捨五入の120.52500000⇒120.5
+
+➀入数１（荷姿）
+画面
+OM431.aspx
+
+ダウンロード
+OM442_11.aspx
+
+
+
+②総バラ数
+
+C_TotalIndQty 16
+
+
+
+//得意先入数マスタ　↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+画面は正しいですが、Excelが修正しなければならないです。
+OKの方も制御が入らなければならない。
+
+
+CFL.R
+
+
+web/TNV/glb/OM/OM442/OM442_1.aspx.cs
+web/TNV/glb/OM/OM442/OM442_11.aspx.cs
+web/TNV/glb/OM/OM442/OM442_2.aspx.cs
+web/TNV/glb/OM/OM442/OM442_4.aspx.cs
+web/TNV/glb/OM/OM442/OM442_5.aspx.cs
+web/TNVSVC/App_Code/OM/C_omDownloadMaster.asmx.cs
+
+a90139607f47b9474a722551c4111de2ae9d9c11
+
+UpgradeList 7870
+
+
+SEQ013408O 対応（CHOUさんのソースマージ）
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ013408O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ013837O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+4902777181059
+
+
+統一商品ｺｰﾄﾞ
+
+髙山商品ｺｰﾄﾞ
+
+
+高山商品コード
+
+髙山商品コード
+
+
+----// 2018/6/5　USOL-V YuB UPD　Start(SEQ013837Oの対応)
+
+// 2018/6/5　MARS YuB UPD　Start(SEQ013837Oの対応)
+// 2018/6/5　MARS YuB UPD　End(SEQ013837Oの対応)
+
+
+SHA-1: 2e197a6c588cdd2244d67dd4afb2262d840dc41c
+
+UpgradeList 7790
+
+
+マーズ 于　斌
+MARS YuB
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ013837O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ013939O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\YuB_SEQ013939O\tnv65-hybrish-source-github\web
+
+YuB_SEQ013939O
+
+送受信データ変換マスタ
+マスタデータ一括出力
+
+画面
+OM424.aspx
+
+チェックロジック
+C_omDataConversionMaster.asmx.cs
+
+文言
+C_omDataConversionMaster_jpn.resx
+
+データ入力
+/TNV/Common/Forms/DataMigration.aspx
+
+
+データ種別　請求（得意先）
+C_DataClass
+データ種別
+C_DataType
+データ種別
+C_DataSyubetu
+データ種別
+
+
+11個の中に
+32：発注（得意先）
+36：受領（得意先）
+44：売上返品（得意先）
+55：請求（得意先）
+
+
+
+strdeptDefault.Trim().Equals(sarDeptCode[iRowNumber].Trim())
+strdeptDefault　508
+
+
+
+更新ボタン押下
+btnSave
+
+\web\TNVSVC\OM\C_omDataConversionMaster_jpn.resx　にある以下が対象のメッセージ
+
+CT_E126
+{0}行目に入力した扱い事業所は、取引先の主管事業所として登録されていません。
+CT_E126_Upload
+入力した扱い事業所は、取引先の主管事業所として登録されていません。
+
+SEQ012906O ADD
+
+DefaultDept
+
+CT_E02
+{0} 行目の {1} は入力できません。
+
+
+
+//2018/06/11 MARS YuB ADD Start(SEQ013939Oの対応)
+//2018/06/11 MARS YuB ADD End(SEQ013939Oの対応)
+
+//2018/06/11 MARS YuB UPD Start(SEQ013939Oの対応)
+//2018/06/11 MARS YuB UPD End(SEQ013939Oの対応)
+
+//2018/06/11 MARS YuB DEL Start(SEQ013939Oの対応)
+//2018/06/11 MARS YuB DEL End(SEQ013939Oの対応)
+
+
+
+
+\WebServerControl\Migration\Migration.sln
+protected override void RenderContents(HtmlTextWriter output)
+↓
+DataMigration_OK
+ArrayList alDataCols = DataMigration.GetDataCols();
+↓
+
+
+ソースの流れ：
+OM424.aspx
+ボタンクリック
+↓
+DataMigration.aspx.cs
+private void btnPostBack_Click(object sender, System.EventArgs e)
+↓
+画面表示される
+参照ファイルを選択
+↓
+DataMigration.aspx.cs
+private void btnOK_Click(object sender, System.EventArgs e)
+window.location = '/XERP/Common/Forms/Waiting.aspx?UniqueID=" + txtCtrlID.Text + @"';
+↓
+OM424.aspx.cs
+LabelInit();
+private void LabelInit()
+↓
+OM424.aspx.cs
+MigrationInit();
+private void MigrationInit()
+↓
+OM424.aspx.cs
+ps.jumpPage = this.GetJumpPage(this.gObj.D);
+private int GetJumpPage(object[] GDObj)
+↓
+OM424.aspx.cs
+protected void DataMigration_OK(object sender, EventArgs e)
+object[] alResult = Obj.Upload(gdObj, sarEdiCode, sarCustShopCode, sarSerNo, sarCustIAccountCode, sarCommDest, sarDataType, sarDefaultDept, sarDeptCode, sarCsCode, sarEdiComCode, sarEdiCenterCode, sarWhCode);
+↓
+C_omDataConversionMaster.asmx.cs
+public ArrayList Upload(object[] GDObj,
+if (!string.IsNullOrWhiteSpace(sarDeptCode[iRowNumber]) && !strdeptDefault.Trim().Equals(sarDeptCode[iRowNumber].Trim()))
+↓
+Waiting.aspx
+
+
+SHA-1: 3262125a31c477f7ccc7bbbd9d9592c00f8d483f
+
+
+UpgrageList　7940
+1900行
+
+
+{DECLARE @DefaultDeptName nvarchar(20) 
+DECLARE @DefaultDept nvarchar(20) 
+DECLARE @DeptName nvarchar(20) 
+DECLARE @CsUse nvarchar(1) 
+DECLARE @OperationTime nvarchar(25) 
+DECLARE @InVoiceCs nchar(12) 
+DECLARE @CountDept int 
+DECLARE @WhUse nvarchar(1) 
+DECLARE @KouzaDept nvarchar(20) 
+DECLARE @SeikouDept nvarchar(20) 
+DECLARE @ParentCs nchar(12) set @DefaultDeptName = null 
+SELECT @DefaultDeptName = DeptName FROM 
+DeptMaster_jpn Dep
+INNER JOIN Organization_jpn Org
+ON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo 
+And Org.OrganBdate <= N'20180608'
+And Org.OrganEdate >= N'20180608'
+WHERE Dep.ComCode = N'0001' 
+And Dep.DeptCode = N'508' 
+IF @DefaultDeptName IS NULL BEGIN 
+SELECT 'CR', N'主管事業所が部署マスタに未登録です。' 
+GOTO Ending END set @DeptName = null 
+SELECT @DeptName = DeptName 
+FROM DeptMaster_jpn Dep
+INNER JOIN Organization_jpn Org
+ON Org.ComCode = N'0001' 
+And Org.RevNo = Dep.RevNo 
+And Org.OrganBdate <= N'20180608'
+And Org.OrganEdate >= N'20180608'
+WHERE Dep.ComCode = N'0001' 
+And Dep.DeptCode = N'508' 
+IF @DeptName IS NULL BEGIN 
+SELECT 'CR', N'扱い事業所が部署マスタに未登録です。' 
+GOTO Ending END 
+set @CsUse = null 
+set @DefaultDept = null 
+set @InVoiceCs = null 
+set @ParentCs = '' 
+SELECT @CsUse = CsUse 
+, @DefaultDept = C_DefaultDept 
+, @InVoiceCs = C_InVoiceCs 
+, @ParentCs =  ParentCs 
+FROM CsMaster 
+WHERE ComCode = N'0001' 
+AND CsCode = N'1100111' 
+set @KouzaDept = ''   
+SELECT @KouzaDept =  C_DefaultDept  
+FROM CsMaster 
+WHERE ComCode = N'0001' 
+AND CsCode =  @ParentCs 
+set @SeikouDept = ''   
+SELECT @SeikouDept =  C_DefaultDept  
+FROM CsMaster WHERE ComCode = N'0001' 
+AND CsCode = @InVoiceCs 
+IF @CsUse IS NULL BEGIN SELECT 'CR', N'1 行目の取引先が取引先マスタに未登録です。' 
+GOTO Ending END ELSE IF @CsUse = 'N' 
+BEGIN SELECT 'CR', N'1 行目の取引先が使用不可です。' 
+GOTO Ending END ELSE IF N'55' in ('37','38','41','50','52','53') 
+and  @DefaultDept <> N'508' BEGIN SELECT 'CR', N'1行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' 
+GOTO Ending END ELSE IF N'55' in ('40','55') 
+and  @SeikouDept <> N'508' BEGIN SELECT 'CR', N'1行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' 
+GOTO Ending END ELSE IF N'55' in ('32','35','36','44') 
+and @KouzaDept <> N'508' BEGIN SELECT 'CR', N'1行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' 
+GOTO Ending END ELSE IF @DefaultDept <> N'508' 
+BEGIN SELECT 'CR', N'1行目に入力した扱い事業所は、取引先の主管事業所として登録されていません。' 
+GOTO Ending END}
+
+
+
+{DECLARE @DefaultDeptName nvarchar(20) DECLARE @DefaultDept nvarchar(20) DECLARE @DeptName nvarchar(20) DECLARE @CsUse nvarchar(1) DECLARE @OperationTime nvarchar(25) DECLARE @InVoiceCs nchar(12) DECLARE @CountDept int DECLARE @WhUse nvarchar(1) DECLARE @KouzaDept nvarchar(20) DECLARE @SeikouDept nvarchar(20) DECLARE @ParentCs nchar(12) set @DefaultDeptName = null SELECT @DefaultDeptName = DeptName FROM DeptMaster_jpn DepINNER JOIN Organization_jpn OrgON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo And Org.OrganBdate <= N'20180608'And Org.OrganEdate >= N'20180608'WHERE Dep.ComCode = N'0001' And Dep.DeptCode = N'508' IF @DefaultDeptName IS NULL BEGIN SELECT 'CR', N'主管事業所が部署マスタに未登録です。' GOTO Ending END set @DeptName = null SELECT @DeptName = DeptName FROM DeptMaster_jpn DepINNER JOIN Organization_jpn OrgON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo And Org.OrganBdate <= N'20180608'And Org.OrganEdate >= N'20180608'WHERE Dep.ComCode = N'0001' And Dep.DeptCode = N'508' IF @DeptName IS NULL BEGIN SELECT 'CR', N'扱い事業所が部署マスタに未登録です。' GOTO Ending END set @CsUse = null set @DefaultDept = null set @InVoiceCs = null set @ParentCs = '' SELECT @CsUse = CsUse , @DefaultDept = C_DefaultDept , @InVoiceCs = C_InVoiceCs , @ParentCs =  ParentCs FROM CsMaster WHERE ComCode = N'0001' AND CsCode = N'1100111' set @KouzaDept = ''   SELECT @KouzaDept =  C_DefaultDept  FROM CsMaster WHERE ComCode = N'0001' AND CsCode =  @ParentCs set @SeikouDept = ''   SELECT @SeikouDept =  C_DefaultDept  FROM CsMaster WHERE ComCode = N'0001' AND CsCode = @InVoiceCs IF @CsUse IS NULL BEGIN SELECT 'CR', N'1 行目の取引先が取引先マスタに未登録です。' GOTO Ending END ELSE IF @CsUse = 'N' BEGIN SELECT 'CR', N'1 行目の取引先が使用不可です。' GOTO Ending END ELSE IF N'55' in ('37','38','41','50','52','53') and  @DefaultDept <> N'508' BEGIN SELECT 'CR', N'1行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF N'55' in ('40','55') and  @SeikouDept <> N'508' BEGIN SELECT 'CR', N'1行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF N'55' in ('32','35','36','44') and @KouzaDept <> N'508' BEGIN SELECT 'CR', N'1行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF @DefaultDept <> N'508' BEGIN SELECT 'CR', N'1行目に入力した扱い事業所は、取引先の主管事業所として登録されていません。' GOTO Ending END }
+{DECLARE @DefaultDeptName nvarchar(20) DECLARE @DefaultDept nvarchar(20) DECLARE @DeptName nvarchar(20) DECLARE @CsUse nvarchar(1) DECLARE @OperationTime nvarchar(25) DECLARE @InVoiceCs nchar(12) DECLARE @CountDept int DECLARE @WhUse nvarchar(1) DECLARE @KouzaDept nvarchar(20) DECLARE @SeikouDept nvarchar(20) DECLARE @ParentCs nchar(12) set @DefaultDeptName = null SELECT @DefaultDeptName = DeptName FROM DeptMaster_jpn DepINNER JOIN Organization_jpn OrgON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo And Org.OrganBdate <= N'20180608'And Org.OrganEdate >= N'20180608'WHERE Dep.ComCode = N'0001' And Dep.DeptCode = N'502' IF @DefaultDeptName IS NULL BEGIN SELECT 'CR', N'主管事業所が部署マスタに未登録です。' GOTO Ending END set @DeptName = null SELECT @DeptName = DeptName FROM DeptMaster_jpn DepINNER JOIN Organization_jpn OrgON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo And Org.OrganBdate <= N'20180608'And Org.OrganEdate >= N'20180608'WHERE Dep.ComCode = N'0001' And Dep.DeptCode = N'502' IF @DeptName IS NULL BEGIN SELECT 'CR', N'扱い事業所が部署マスタに未登録です。' GOTO Ending END set @CsUse = null set @DefaultDept = null set @InVoiceCs = null set @ParentCs = '' SELECT @CsUse = CsUse , @DefaultDept = C_DefaultDept , @InVoiceCs = C_InVoiceCs , @ParentCs =  ParentCs FROM CsMaster WHERE ComCode = N'0001' AND CsCode = N'123900009064' set @KouzaDept = ''   SELECT @KouzaDept =  C_DefaultDept  FROM CsMaster WHERE ComCode = N'0001' AND CsCode =  @ParentCs set @SeikouDept = ''   SELECT @SeikouDept =  C_DefaultDept  FROM CsMaster WHERE ComCode = N'0001' AND CsCode = @InVoiceCs IF @CsUse IS NULL BEGIN SELECT 'CR', N'2 行目の取引先が取引先マスタに未登録です。' GOTO Ending END ELSE IF @CsUse = 'N' BEGIN SELECT 'CR', N'2 行目の取引先が使用不可です。' GOTO Ending END ELSE IF N'55' in ('37','38','41','50','52','53') and  @DefaultDept <> N'502' BEGIN SELECT 'CR', N'2行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF N'55' in ('40','55') and  @SeikouDept <> N'502' BEGIN SELECT 'CR', N'2行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF N'55' in ('32','35','36','44') and @KouzaDept <> N'502' BEGIN SELECT 'CR', N'2行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF @DefaultDept <> N'502' BEGIN SELECT 'CR', N'2行目に入力した扱い事業所は、取引先の主管事業所として登録されていません。' GOTO Ending END }
+{DECLARE @DefaultDeptName nvarchar(20) DECLARE @DefaultDept nvarchar(20) DECLARE @DeptName nvarchar(20) DECLARE @CsUse nvarchar(1) DECLARE @OperationTime nvarchar(25) DECLARE @InVoiceCs nchar(12) DECLARE @CountDept int DECLARE @WhUse nvarchar(1) DECLARE @KouzaDept nvarchar(20) DECLARE @SeikouDept nvarchar(20) DECLARE @ParentCs nchar(12) set @DefaultDeptName = null SELECT @DefaultDeptName = DeptName FROM DeptMaster_jpn DepINNER JOIN Organization_jpn OrgON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo And Org.OrganBdate <= N'20180608'And Org.OrganEdate >= N'20180608'WHERE Dep.ComCode = N'0001' And Dep.DeptCode = N'508' IF @DefaultDeptName IS NULL BEGIN SELECT 'CR', N'主管事業所が部署マスタに未登録です。' GOTO Ending END set @DeptName = null SELECT @DeptName = DeptName FROM DeptMaster_jpn DepINNER JOIN Organization_jpn OrgON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo And Org.OrganBdate <= N'20180608'And Org.OrganEdate >= N'20180608'WHERE Dep.ComCode = N'0001' And Dep.DeptCode = N'515' IF @DeptName IS NULL BEGIN SELECT 'CR', N'扱い事業所が部署マスタに未登録です。' GOTO Ending END set @CsUse = null set @DefaultDept = null set @InVoiceCs = null set @ParentCs = '' SELECT @CsUse = CsUse , @DefaultDept = C_DefaultDept , @InVoiceCs = C_InVoiceCs , @ParentCs =  ParentCs FROM CsMaster WHERE ComCode = N'0001' AND CsCode = N'109005490000' set @KouzaDept = ''   SELECT @KouzaDept =  C_DefaultDept  FROM CsMaster WHERE ComCode = N'0001' AND CsCode =  @ParentCs set @SeikouDept = ''   SELECT @SeikouDept =  C_DefaultDept  FROM CsMaster WHERE ComCode = N'0001' AND CsCode = @InVoiceCs IF @CsUse IS NULL BEGIN SELECT 'CR', N'3 行目の取引先が取引先マスタに未登録です。' GOTO Ending END ELSE IF @CsUse = 'N' BEGIN SELECT 'CR', N'3 行目の取引先が使用不可です。' GOTO Ending END ELSE IF N'55' in ('37','38','41','50','52','53') and  @DefaultDept <> N'508' BEGIN SELECT 'CR', N'3行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF N'55' in ('40','55') and  @SeikouDept <> N'508' BEGIN SELECT 'CR', N'3行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF N'55' in ('32','35','36','44') and @KouzaDept <> N'508' BEGIN SELECT 'CR', N'3行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF @DefaultDept <> N'515' BEGIN SELECT 'CR', N'3行目に入力した扱い事業所は、取引先の主管事業所として登録されていません。' GOTO Ending END }
+{DECLARE @DefaultDeptName nvarchar(20) DECLARE @DefaultDept nvarchar(20) DECLARE @DeptName nvarchar(20) DECLARE @CsUse nvarchar(1) DECLARE @OperationTime nvarchar(25) DECLARE @InVoiceCs nchar(12) DECLARE @CountDept int DECLARE @WhUse nvarchar(1) DECLARE @KouzaDept nvarchar(20) DECLARE @SeikouDept nvarchar(20) DECLARE @ParentCs nchar(12) set @DefaultDeptName = null SELECT @DefaultDeptName = DeptName FROM DeptMaster_jpn DepINNER JOIN Organization_jpn OrgON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo And Org.OrganBdate <= N'20180608'And Org.OrganEdate >= N'20180608'WHERE Dep.ComCode = N'0001' And Dep.DeptCode = N'522' IF @DefaultDeptName IS NULL BEGIN SELECT 'CR', N'主管事業所が部署マスタに未登録です。' GOTO Ending END set @DeptName = null SELECT @DeptName = DeptName FROM DeptMaster_jpn DepINNER JOIN Organization_jpn OrgON Org.ComCode = N'0001' And Org.RevNo = Dep.RevNo And Org.OrganBdate <= N'20180608'And Org.OrganEdate >= N'20180608'WHERE Dep.ComCode = N'0001' And Dep.DeptCode = N'508' IF @DeptName IS NULL BEGIN SELECT 'CR', N'扱い事業所が部署マスタに未登録です。' GOTO Ending END set @CsUse = null set @DefaultDept = null set @InVoiceCs = null set @ParentCs = '' SELECT @CsUse = CsUse , @DefaultDept = C_DefaultDept , @InVoiceCs = C_InVoiceCs , @ParentCs =  ParentCs FROM CsMaster WHERE ComCode = N'0001' AND CsCode = N'132300000187' set @KouzaDept = ''   SELECT @KouzaDept =  C_DefaultDept  FROM CsMaster WHERE ComCode = N'0001' AND CsCode =  @ParentCs set @SeikouDept = ''   SELECT @SeikouDept =  C_DefaultDept  FROM CsMaster WHERE ComCode = N'0001' AND CsCode = @InVoiceCs IF @CsUse IS NULL BEGIN SELECT 'CR', N'4 行目の取引先が取引先マスタに未登録です。' GOTO Ending END ELSE IF @CsUse = 'N' BEGIN SELECT 'CR', N'4 行目の取引先が使用不可です。' GOTO Ending END ELSE IF N'55' in ('37','38','41','50','52','53') and  @DefaultDept <> N'522' BEGIN SELECT 'CR', N'4行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF N'55' in ('40','55') and  @SeikouDept <> N'522' BEGIN SELECT 'CR', N'4行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF N'55' in ('32','35','36','44') and @KouzaDept <> N'522' BEGIN SELECT 'CR', N'4行目に入力した主管事業所は、指定取引先の主管事業所として登録されていません。' GOTO Ending END ELSE IF @DefaultDept <> N'508' BEGIN SELECT 'CR', N'4行目に入力した扱い事業所は、取引先の主管事業所として登録されていません。' GOTO Ending END }
+
+UpgrageList　7940
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ013939O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ013183O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+TNV障害 #8722
+
+売先１
+
+238DB
+TNV_OM
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\YuB_SEQ013183O\tnv65-hybrish-source-github\web
+
+YuB_SEQ013183O
+
+メイン画面：
+OM400_Data.aspx
+
+画面：
+OM400_SalesDest1Popup.aspx
+
+アップロードチェック：
+C_CsMaster.asmx.cs
+
+OM400
+200107701
+
+OM442
+マスタデータ一括出力
+
+
+取引先コード CsCode
+ArCheck
+C_ChiefComCheck
+
+計上基準
+半角数字チェックを追加
+ﾁｪｯｸ無し                    sarRecordedBase
+担当者開始年月（新）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarEmpStartyyyymm1
+担当者（コード）（新）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarEmpCode1
+担当者開始年月（旧）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarEmpStartyyyymm2
+担当者（コード）（旧）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarEmpCode2
+旧グループコード
+半角チェックを追加
+同左                       sarOldGroupCode
+旧担当者開始年月（新）
+半角数字チェックを追加
+ﾁｪｯｸ無し        sarOldEmpStartyyyymm1
+旧担当者（コード）（新）
+半角チェックを追加
+同左               sarOldEmpCode1
+旧担当者開始年月（旧）
+半角数字チェックを追加
+ﾁｪｯｸ無し        sarOldEmpStartyyyymm2
+旧担当者（コード）（旧）
+半角チェックを追加
+同左               sarOldEmpCode2
+請求コード（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarInVoiceCs
+取引口座№
+半角チェックを追加
+同左                       sarAccountNo
+請求締日条件（コード）
+半角英数チェックを追加
+ﾁｪｯｸ無し        sarARPayCode
+請求書出力（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarInVoiceYN
+請求書区分（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarInVoiceSumNeed
+便区分
+半角数字チェックを追加
+同左                       sarFlightGubun
+入出荷種別（コード）
+半角英数チェックを追加
+ﾁｪｯｸ無し            sarOrderType
+単価マスタ更新（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し        sarItemCsMsUpdGubun
+倉出倉庫（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarWhCode
+直送倉庫（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し            sarDirectWhCode
+電話番号（その他）
+半角チェックを追加
+同左                   sarOtherCsTel
+ＦＡＸ番号（その他）
+半角チェックを追加
+同左                   sarOtherCsFax
+出荷リードタイム
+半角数字チェックを追加
+同左                   sarLeadTime
+受注受付区分（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し        sarOrderAcceptType
+
+
+//2018/06/29 MARS YuB ADD Start(SEQ013183Oの対応)
+//2018/06/29 MARS YuB ADD End(SEQ013183Oの対応)
+
+//2018/06/29 MARS YuB UPD Start(SEQ013183Oの対応)
+//2018/06/29 MARS YuB UPD End(SEQ013183Oの対応)
+
+//2018/06/29 MARS YuB DEL Start(SEQ013183Oの対応)
+//2018/06/29 MARS YuB DEL End(SEQ013183Oの対応)
+
+
+
+
+
+
+ArrayList alErrorMsg = new ArrayList();
+
+
+
+
+
+//2018/06/12 MARS YuB ADD Start(SEQ013183Oの対応)
+
+
+
+strErrorMsg = CheckHalfsize(strOldGroupCode, "旧グループコード", ref alErrorMsg, 0, GD);
+
+
+
+if (!string.IsNullOrWhiteSpace(strErrorMsg))
+
+
+
+{
+
+
+
+
+strErrorCode = "01";
+
+
+
+
+strErrorMsg = alErrorMsg[0].ToString();
+
+
+
+
+return CFL.EncodeData(strErrorCode, strErrorMsg, null);
+
+
+
+}
+
+
+
+if (strError.Equals(CheckAlphaNumericHalfsize(strOldGroupCode, GD)))
+
+
+
+{
+
+
+
+
+strErrorCode = "01";
+
+
+
+
+strErrorMsg = string.Format(CFL.RS("CT_E109", this, this.Server, GD.LangID), "旧グループコード", "半角英数");
+
+
+
+
+return CFL.EncodeData(strErrorCode, strErrorMsg, null);
+
+
+
+}
+
+
+
+//2018/06/12 MARS YuB ADD End(SEQ013183Oの対応)
+
+
+
+OM400_SalesDest1Popup.aspx
+protected void Page_Load(object sender, System.EventArgs e)
+↓
+GetDataFromCsCode
+↓
+this.LabelInit
+↓
+MigrationInit　　　　//DB Field
+
+
+C_CsMaster.asmx.cs
+public ArrayList Save_SalesDest1(object[] GDObj,
+CheckAlphaNumericHalfsize
+
+
+C_CsMaster2.asmx.cs
+CheckHalfsize
+
+
+C_CsMaster_jpn.resx
+<data name="CT_E109" xml:space="preserve">
+  <value>{0}は{1}ではありません。</value>
+</data>
+
+
+<data name="CT_E109" xml:space="preserve">
+  <value>{0}は{1}ではありません。</value>
+</data>
+
+数値を入力して下さい
+
+半角チェックは「半角英数チェック」という意味です。
+
+下記のエラーが発生して、3行目のデータが入力されていません。
+請求締日条件（コード）が代金回収支払情報に未登録です。
+
+
+
+                //2018/06/12 MARS YuB ADD Start(SEQ013183Oの対応)
+                //取引先コード　半角数字チェック
+                if (strError.Equals(IsNumericInt(sarCsCode[i], "取引先コード", ref alErrorMsg, iRow, GD)))
+                {
+                    strErrorCode = strError;
+                }
+                //2018/06/12 MARS YuB ADD End(SEQ013183Oの対応)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (strError.Equals(CheckAlphaNumericHalfsize(strOldGroupCode, GD)))
+
+
+
+{
+
+
+
+
+strErrorCode = "01";
+
+
+
+
+strErrorMsg = string.Format(CFL.RS("CT_E109", this, this.Server, GD.LangID), "旧グループコード", "半角英数");
+
+
+
+
+return CFL.EncodeData(strErrorCode, strErrorMsg, null);
+
+
+
+}
+
+
+
+
+SHA-1: 7c025def74ddf3dcf4f67fc45cde89a757ed722d
+
+UpgradeList 8083
+
+
+
+
+
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\50システムテスト\ユニシスワーク\マスタ\フィードバック証跡\8722
+
+
+
+
+
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+売先２
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\YuBUriSaki2_SEQ013183O\tnv65-hybrish-source-github\web
+
+YuBUriSaki2_SEQ013183O
+
+画面
+OM400_SalesDest2Popup.aspx
+
+伝票管理番号（コード）
+半角英数チェックを追加
+ﾁｪｯｸ無し
+　　　　　　　　　　　　　　　strNoType
+ＣＤ使用区分（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し
+00～59　　　　　　　　　　　　　 strCdUseGubun
+伝票明細行数（一般）
+半角数字チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　strDocLinesNormal
+伝票明細行数（EOS）
+半角数字チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　strDocLinesEos
+納品書出力（一般）（コード）
+半角英字チェックを追加
+ﾁｪｯｸ無し
+Y,N　　　　　　　　　　　　　bDelBillGubunNormal
+納品伝票編集型名（一般伝票）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　strDelBillDocTypeNormal
+納品書出力（ＥＯＳ）（コード）
+半角英字チェックを追加
+ﾁｪｯｸ無し
+Y,N　　　　　　　　　bDelBillGubunEos
+納品伝票編集型名（EOS伝票）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　strDelBillDocTypeEos
+売上返品伝票出力（コード一般）
+半角英字チェックを追加
+ﾁｪｯｸ無し
+Y,N　　　　　　　　　bArReturnDocPrintN
+納品伝票編集型名（返品一般）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　strDelBillDocTypeReturnN
+売上返品伝票出力（コードEOS）
+半角英字チェックを追加
+ﾁｪｯｸ無し
+Y,N　　　　　　　　　bArReturnDocPrintE
+納品伝票編集型名（返品EOS）
+半角チェックを追加
+同左　　　　　　　　　　　　　　　　　　　strDelBillDocTypeReturnE
+欠品明細表出力（コード）
+半角英字チェックを追加
+ﾁｪｯｸ無し
+Y,N　　　　　　　　　　　　　bStockoutCs
+欠品明細表型名
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　　　　　strStockoutCsFormatID
+伝票印字店舗ＣＤ出力 （コード）
+半角英字チェックを追加
+ﾁｪｯｸ無し
+Y,N　　　　　　　　　sarC_DocPrintCdOut
+伝票印字店舗ＣＤ
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　　　　　sarC_DocPrintCd
+端数処理純売上（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し
+1,2,3　　　　　　　　　　　ddlOddTransNetAr
+端数処理基準リベート（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し
+1,2,3　　　　　　　　ddlOddTransBaseKickBack
+端数処理総売上（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し
+1,2,3　　　　　　　　　　　ddlOddTransTotalAr
+税区分（売上）
+半角数字チェックを追加
+ﾁｪｯｸ無し
+1,2　　　　　　　　　　　　　　　　　　　　strInOutGubunAr
+請求時消費税単位（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し
+0,1　　　　　　　　　　　　　sarInVoiceTaxUnit
+請求時消費税端数処理（コード）
+半角数字チェックを追加
+ﾁｪｯｸ無し
+1,2,3　　　　　　　　sarInvOddTransTax
+客先特売区分（定番コード）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　strCsSaleRegular
+客先伝票区分（定番）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　　　　　strCsDocRegular
+客先分類コード（定番）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　strCsClassRegular
+客先特売区分（特売コード）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　　strCsSaleSpot
+客先伝票区分（特売）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　　　　　strCsDocSpot
+客先分類コード（特売）
+半角チェックを追加
+同左
+　　　　　　　　　　　　　　　　　　　　　　strCsClassSpot
+
+
+
+
+
+伝票管理番号（コード）         半角英数チェックを追加         sarNoType                     1
+ＣＤ使用区分（コード）          半角数字チェックを追加         sarCdUseGubun                 2
+伝票明細行数（一般）          半角数字チェックを追加           sarDocLinesNormal          3 
+伝票明細行数（EOS）          半角数字チェックを追加         sarDocLinesEos                4
+納品書出力（一般）（コード）      半角英字チェックを追加         sarDelBillGubunNormal         5
+伝票編集型名（一般）          半角チェックを追加           sarDelBillDocTypeNormal       6 
+納品書出力（ＥＯＳ）（コード）     半角英字チェックを追加         sarDelBillGubunEos            7
+伝票編集型名（EOS）          半角チェックを追加         sarDelBillDocTypeEos             8
+売上返品伝票出力（一般）（コード） 半角英字チェックを追加           sarArReturnDocPrintN       9 
+伝票編集型名（返品・一般）      半角チェックを追加           sarDelBillDocTypeReturnN      10 
+売上返品伝票出力（EOS）（コード） 半角英字チェックを追加         sarArReturnDocPrintE          11
+伝票編集型名（返品・EOS）      半角チェックを追加         sarDelBillDocTypeReturnE         12
+発注明細数                 半角数字チェックを追加           sarOrderSerCnt             13 
+発注書レポート出力           半角数字チェックを追加         sarOrderDocGubun              14
+発注書レポートID             半角チェックを追加            sarOrderReportID              15 
+欠品明細表出力（コード）        半角英字チェックを追加           sarStockoutCs              16 
+欠品明細表型名             半角チェックを追加         sarStockoutCsFormatID            17
+伝票印字店舗ＣＤ出力（コード）   半角英字チェックを追加         sarC_DocPrintCdOut            18
+伝票印字店舗ＣＤ            半角チェックを追加         sarC_DocPrintCd                  19
+端数処理純売上（コード）        半角数字チェックを追加           sarOddTransNetAr           20 
+端数処理基準リベート（コード）    半角数字チェックを追加         sarOddTransBaseKickBack       21
+端数処理総売上（コード）        半角数字チェックを追加           sarOddTransTotalAr         22
+税区分（売上）               半角数字チェックを追加         sarArTaxKbn                   23
+請求時消費税単位（コード）      半角数字チェックを追加         sarInVoiceTaxUnit             24
+消費税端数処理（コード）        半角数字チェックを追加           sarInvOddTransTax---------- 25
+客先特売区分（定番コード）      半角チェックを追加         sarCsSaleRegular                 26
+客先伝票区分（定番）          半角チェックを追加           sarCsDocRegular                 27
+客先分類コード（定番）         半角チェックを追加         sarCsClassRegular                 28
+客先特売区分（特売コード）      半角チェックを追加         sarCsSaleSpot                     29
+客先伝票区分（特売）          半角チェックを追加            sarCsDocSpot                   30
+客先分類コード（特売）         半角チェックを追加          sarCsClassSpot                   31
+
+
+
+strOrderSerCnt
+bOrderDocGubun
+strOrderReportID
+
+
+
+
+//2018/06/29 MARS YuB ADD Start(SEQ013183Oの対応)
+//2018/06/29 MARS YuB ADD End(SEQ013183Oの対応)
+
+//2018/06/29 MARS YuB UPD Start(SEQ013183Oの対応)
+//2018/06/29 MARS YuB UPD End(SEQ013183Oの対応)
+
+//2018/06/29 MARS YuB DEL Start(SEQ013183Oの対応)
+//2018/06/29 MARS YuB DEL End(SEQ013183Oの対応)
+
+
+アップロードチェック：
+SHA-1: 3bf25dd0845eee81ac1b30eb893d5aabe27e6ed7
+
+web/TNVSVC/App_Code/OM/C_CsMaster.asmx.cs
+web/TNVSVC/OM/C_CsMaster_jpn.resx
+
+
+画面チェック：
+SHA-1: 0387303bf4a71f3a1dae449e7b81ecb060e18c94
+
+
+
+web/TNV/glb/OM/OM400/OM400_SalesDest1Popup.aspx
+web/TNV/glb/OM/OM400/OM400_SalesDest2Popup.aspx
+web/TNV/glb/OM/OM400/OM400_SalesDest2Popup.aspx.cs
+web/TNV/glb/OM/OM400/OM400_jpn.resx
+web/TNVSVC/App_Code/OM/C_CsMaster.asmx.cs
+
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+↓↓↓↓↓↓SEQ014426O 対応↓↓↓↓↓↓
+
+得意先商品変換マスタ
+4900353820194
+SEQ014426O
+
+SD407
+
+得意先
+1100011
+
+アップロードチェック：
+
+\\192.1.107.224\開発室運用\200.共有\ユニシス様\50システムテスト\ユニシスワーク\マスタ\フィードバック証跡\8722\完成版\back\提出できない版\TNV障害 #8722_得意先商品変換マスタ_ユニシス証跡.xlsx
+
+
+得意先商品情報 得意先コード      半角英数字      sarCsCode                      1
+髙山商品情報 適用期間FROM      半角数字        sarAvailableBDate              2
+髙山商品情報 適用期間TO        半角数字        sarAvailableEDate              3
+得意先商品情報 JANコード        半角英数字      sarCustItemJanCode             4
+得意先商品情報 インストアコード     半角英数字      sarCustHItemCode               5
+髙山商品情報 JANコード          半角英数字      sarItemJanCode                 6
+髙山商品情報 代表商品コード      半角英数字      sarMainItemCode                7
+髙山商品情報 髙山商品コード      半角英数字      sarItemCode                    8
+得意先商品情報 商品分類（小）     半角英数字      sarItemClassSmall              9
+得意先商品情報 商品分類（細）     半角英数字      sarItemClassDetail             10
+得意先商品情報 定番・特売区分     1、2           sarpoRegSaleGubun
+
+
+//2018/07/02 MARS YuB ADD Start(SEQ014426Oの対応)
+//2018/07/02 MARS YuB ADD End(SEQ014426Oの対応)
+
+//2018/07/02 MARS YuB UPD Start(SEQ014426Oの対応)
+//2018/07/02 MARS YuB UPD End(SEQ014426Oの対応)
+
+//2018/07/02 MARS YuB DEL Start(SEQ014426Oの対応)
+//2018/07/02 MARS YuB DEL End(SEQ014426Oの対応)
+
+SEQ014426O
+
+e104
+e107
+e108
+e117
+e201
+
+5972105e581d096669d8d7e63fd91563f4ba3c23
+
+得意先商品変換マスタ
+売先１
+
+                //2018/06/29 MARS YuB ADD Start(SEQ013183Oの対応)
+
+
+
+
+// 取引先コード　半角数字チェック
+                if (strError.Equals(IsNumericInt(sarCsCode[i], "取引先コード", ref alErrorMsg, iRow, GD)))
+                {
+                    strErrorCode = strError;
+                }
+                //2018/06/29 MARS YuB ADD End(SEQ013183Oの対応)
+
+
+
+76d33bfc85fd5bd46c370f0197d29da6f6f13db8
+
+
+
+取引先区分　得意先
+取引先　マスタ
+
+OM400_CommonPopup.aspx
+共通情報
+受注ｾﾝﾀｰ
+
+sarCsCode
+sarBusiUniCode
+sarCsName
+sarCsUse
+sarApCheck            チェックなし
+sarCenterCheck        チェックなし
+sarChiefComCheck
+
+
+
+
+
+
+OM400_AccCommonPopup.aspx
+共通情報
+経理部専用
+
+
+↑↑↑↑↑↑↑SEQ014426O 対応↑↑↑↑↑↑↑
+
+
+
+//2018/07/03 MARS YuB ADD Start(SEQ013183Oの対応)
+//2018/07/03 MARS YuB ADD End(SEQ013183Oの対応)
+
+//2018/07/03 MARS YuB UPD Start(SEQ013183Oの対応)
+//2018/07/03 MARS YuB UPD End(SEQ013183Oの対応)
+
+//2018/07/03 MARS YuB DEL Start(SEQ013183Oの対応)
+//2018/07/03 MARS YuB DEL End(SEQ013183Oの対応)
+
+
+
+‪\\192.1.107.224\開発室運用\200.共有\ユニシス様\50システムテスト\ユニシスワーク\マスタ\フィードバック証跡\8722\チェック待ち\20180703\取引先マスタ\マージ版\TNV障害 #8722_ユニシス証跡_取引先マスタ_売先２.xlsx
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ013183O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014006O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+[TNV_TEST_WX]
+Name = TNV_TEST_WX
+DBServer = 192.1.107.245
+UserID = sa
+Password = Password01
+DataBase = TNV_UK_RH
+DBKind = SQLOLEDB
+Use = Y
+DomainName = 192.1.107.238
+
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\SEQ014006O\tnv65-hybrish-source-github\web
+
+
+238DB
+TNV_WX
+
+USER(jyosys)：
+19911004
+
+
+直送出荷状況照会
+
+508
+
+
+RDEプリンタ
+HJ508LNE_01
+
+ファイル出力パス：
+\\192.1.107.238\c$\svf\csv_temp
+administrator
+Password01
+【\\192.1.107.180\c$\svf\csv_temp
+administrator
+Password01】
+
+
+SD453.aspx
+
+C_SvfPrintPopup.aspx
+
+c:\inetpub\wwwroot\tnvsvc\app_code\sd\c_sddirectshipmentstatus.asmx.cs
+2399
+
+
+
+cm = new OleDbCommand(sbQuery.ToString(), this.m_db);
+
+
+
+try
+
+
+
+{
+
+
+
+
+// 2. 1でSQL文を実施する。
+
+
+
+
+dr = cm.ExecuteReader();
+
+
+
+}
+
+2424
+
+
+//2018/06/13 MARS YuB ADD Start(SEQ014006Oの対応)
+//2018/06/13 MARS YuB ADD End(SEQ014006Oの対応)
+
+//2018/06/13 MARS YuB UPD Start(SEQ014006Oの対応)
+//2018/06/13 MARS YuB UPD End(SEQ014006Oの対応)
+
+//2018/06/13 MARS YuB DEL Start(SEQ014006Oの対応)
+//2018/06/13 MARS YuB DEL End(SEQ014006Oの対応)
+
+UpgrageList　8043
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014006O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014146O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+（RDM9824）
+
+【mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\RDM9824\tnv65-hybrish-source-github\web】
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\SEQ014146O\tnv65-hybrish-source-github\web
+
+
+SEQ014146O
+
+redmine
+9824
+
+高山メニュー>販売（SD)>販売（SD)>得意先商品変換マスタ
+
+事業所　508
+松本営業所
+得意先　1335
+
+1335
+133500
+口座コード
+
+
+1301
+
+画面
+SD407.aspx
+
+画面JS
+tnvComm.js
+
+ポップアップ画面
+\TNV\Common\Forms\InstantPopup.aspx
+
+/TNV/Common/Forms/Popup/C_CsPopup.aspx
+
+    alert("1");
+
+
+
+
+
+
+alert(popupName);
+                    alert(_this.value);
+                    alert(controlName);
+
+
+
+
+
+
+pupCsMaster_InstantCheck()
+
+"CsCode/CsName/ParentCs/txtCsCode = 1335|ddlDeptCode = 508|"
+
+pupCsMaster
+1335000
+txtCsCode
+
+UpgrageList　
+
+
+
+Popup_pupCsMaster();
+
+varWindow = window.open ("/TNV/Common/Forms/Popup/C_CsPopup.aspx?&WindowTitle=%e5%be%97%e6%84%8f%e5%85%88%e6%83%85%e5%a0%b1&Module=OM&ClsName=C_CsMaster&MethodName=TreePopup&WhereClause=&Condition=CsCode%2fCsName%2fParentCs%2f&PopupHeight=370&PopupWidth=580&OKFunction=pupCsMaster_RaiseEvent&C01_ID=xtCsCode&C02_ID=txtCsName&C04_ID=ddlDeptCode", '', 'Width=580, Height=370,Left=' + ( window.event.screenX - 200 ) + ',Top=' + ( window.event.screenY + 10 - 0 ) + ', menubar=no, toolbar=no, location=no, directories=no, status=no, scrollbars=no, resizable=no');
+
+2
+Grid
+1335
+CsCode
+
+Grid_CsCode_InstantCheck(0,CsCode);
+↓
+var items = TreePopupGateWay ( "http://localhost/TNV", "OM", "C_CsMaster", "TreePopup", "", strCondition, false );
+function TreePopupGateWay ( strAppName, strModule, strClassName, strMethodName, strWhereClause, strConditions, bNonLeafSelection )
+↓
+"http://localhost/TNV/Common/GateWay/ClientGW.asmx"
+public object[] TreeGateWay(string strModule, string strClassName, string strMethodName, string strWhereClause, string strConditions, bool bNonLeafSelection)
+object[] alData = oCGW.TreeGateWay(true, strModule, strClassName, strMethodName, strWhereClause, strConditions, null, G.D);
+↓
+\TNVSVC\App_Code\CGW.asmx.cs
+object[] alData = oCGW.TreeGateWay(true, strModule, strClassName, strMethodName, strWhereClause, strConditions, null, G.D);
+alResult = gwOM.TreeGateWay ( bStartQuery, strClassName, strMethodName, strWhereClause, strCondition, Conditions, GDObj );
+↓
+\TNVSVC\App_Code\CommGW\gwOM.asmx.cs
+public ArrayList TreeGateWay(bool bStartQuery, string strClassName, string strMethodName, string strWhereClause, string strCondition, object[] Conditions, object[] GDObj)
+↓
+\TNVSVC\App_Code\OM\C_CsMaster.asmx.cs
+public ArrayList TreePopup(bool bStartQuery, string strWhereClause, string strCondition, object[] Conditions, object[] GDObj)
+
+
+
+"function ConfirmSelection ( iRow )
+{
+
+var strScript = \"dialogArguments[0].\" + dialogArguments[3] + \"(\";
+
+var strEncodedData = items[5+iRow*iColumnCnt].nodeTypedValue;
+
+
+
+// Grid Check
+
+if ( dialogArguments.length > 4 )
+
+
+strScript += dialogArguments[4] + \",\";
+
+
+
+strScript += \" new Array ( \";
+
+for (var i = 1; i < 21; i++)
+
+{
+
+
+if ( strEncodedData.indexOf ( 'C' + ( i < 10 ? '0' : '' ) + i ) < 0 )
+
+
+
+break;
+
+
+
+if ( i != 1 )
+
+
+
+strScript += \", \";
+
+
+
+strScript += \"'\" + GetEncodedData ( 'C' + ( i < 10 ? '0' : '' ) + i, strEncodedData ) + \"'\";
+
+}
+
+strScript += \" ) );\";
+
+
+
+execScript ( strScript );
+
+self.close();
+}"
+
+
+
+
+// instant check event
+function pupCsMaster_InstantCheck ()
+{
+
+var iMaxRow = 1000;
+
+
+
+
+
+if ( event.srcElement.value == "" )
+
+{
+
+
+document.all['txtCsCode'].value = '';
+                        document.all['txtCsName'].value = '';
+
+
+pupCsMaster_RaiseEvent('OK');
+
+
+return;
+
+}
+
+
+var strCondition = "CsCode/CsName/ParentCs/" + event.srcElement.name + " = " + event.srcElement.value + "|" 
+
+
+
+
+
++ "ddlDeptCode = " + document.all['ddlDeptCode'].value + "|";
+
+
+var items = TreePopupGateWay ( "http://localhost/TNV", "OM", "C_CsMaster", "TreePopup", "", strCondition, true );
+
+// Check Data Count
+
+var iDataCnt = Number ( items[3].nodeTypedValue );
+
+
+// if(iDataCnt==0) ClearBandings 
+
+if ( iDataCnt == 0 )
+
+{
+
+
+var iColCnt = Number ( items[2].nodeTypedValue );
+
+
+if ( iColCnt > 0 )
+
+
+
+document.all['xtCsCode'].value = '';
+
+
+if ( iColCnt > 1 )
+
+
+
+document.all['txtCsName'].value = '';
+
+
+if ( iColCnt > 3 )
+
+
+
+document.all['ddlDeptCode'].value = '';
+
+
+pupCsMaster_RaiseEvent('OK');
+
+}
+
+else if ( iDataCnt == 1 )
+
+{
+
+
+var iColCnt = Number ( items[2].nodeTypedValue );
+
+
+if ( iColCnt > 0 )
+
+
+
+document.all['xtCsCode'].value = GetEncodedData('C01', items[5].nodeTypedValue);
+
+
+if ( iColCnt > 1 )
+
+
+
+document.all['txtCsName'].value = GetEncodedData('C02', items[5].nodeTypedValue);
+
+
+if ( iColCnt > 3 )
+
+
+
+document.all['ddlDeptCode'].value = GetEncodedData('C04', items[5].nodeTypedValue);
+
+
+pupCsMaster_RaiseEvent('OK');
+
+}
+
+else if ( iDataCnt > 1 && iDataCnt < iMaxRow )
+
+{
+
+
+var arDialogParams = new Array(4);
+
+
+arDialogParams[0] = self;
+
+
+arDialogParams[1] = items;
+
+
+arDialogParams[2] = "得意先情報";
+
+
+arDialogParams[3] = "pupCsMaster_SetValue";
+
+
+
+window.showModalDialog ( "/TNV/Common/Forms/InstantPopup.aspx?Module=OM&ClsName=C_CsMaster&MethodName=TreePopup&Condition=" + escape(strCondition) + "&WhereClause=&PopupHeight=370&PopupWidth=580&UseTree=Y", arDialogParams, 'dialogWidth:580px;dialogHeight:370px;dialogLeft:' + window.event.screenX + 'px;dialogTop:' + window.event.screenY + 'px;edge:sunken;help:no;status:no;');
+
+}
+
+else if ( iDataCnt >= iMaxRow )
+
+{
+
+
+Popup_pupCsMaster();
+
+}
+}
+undefined
+
+
+
+
+// instant check event
+function Grid_CsCode_InstantCheck (iRow,strColumnID)
+{
+
+var iMaxRow = 1000;
+
+
+if ( event.srcElement.value == "" )
+
+{
+
+
+javascript: ClearData(iRow)|
+
+
+Grid_CsCode_RaiseEvent(iRow,'OK');
+
+
+return;
+
+}
+
+
+var strCondition = "CsCode/CsName/ParentCs/" + strColumnID + " = " + event.srcElement.value + "|";
+
+var items = TreePopupGateWay ( "http://localhost/TNV", "OM", "C_CsMaster", "TreePopup", "", strCondition, false );
+
+
+// Check Data Count
+
+var iDataCnt = Number ( items[3].nodeTypedValue );
+
+
+// if(iDataCnt==0) ClearBandings 
+
+if ( iDataCnt == 0 )
+
+{
+
+
+//event.srcElement.blur();
+
+
+var iColCnt = Number ( items[2].nodeTypedValue );
+
+
+var arParams = new Array ();
+
+
+for ( var i = 0; i < iColCnt; i++ )
+
+
+
+{
+
+
+
+
+arParams[i] = ''; 
+
+
+
+} 
+
+
+Grid_CsCode_SetValue (iRow,arParams);
+
+
+
+Grid_CsCode_RaiseEvent(iRow,'OK');
+
+}
+
+else if ( iDataCnt == 1 )
+
+
+{
+
+
+//event.srcElement.blur();
+
+
+var iColCnt = Number ( items[2].nodeTypedValue );
+
+
+var arParams = new Array ();
+
+
+for ( var i = 0; i < iColCnt; i++ )
+
+
+
+{
+
+
+
+
+var strValue = items[4+i].nodeTypedValue; 
+
+
+
+
+var arValues = strValue.split("\t");
+
+
+
+
+for ( var j = 0 ; j < arValues.length ; j++ )
+
+
+
+
+{
+
+
+
+
+
+arParams[i] = arValues[j];
+
+
+
+
+
+i++;
+
+
+
+
+}
+
+
+
+} 
+
+
+Grid_CsCode_SetValue (iRow,arParams);
+
+
+
+Grid_CsCode_RaiseEvent(iRow,'OK');
+
+}
+
+else if ( iDataCnt > 1 && iDataCnt < iMaxRow  )
+
+{
+
+
+var arDialogParams = new Array(5);
+
+
+arDialogParams[0] = self;
+
+
+arDialogParams[1] = items;
+
+
+arDialogParams[2] = "得意先情報";
+
+
+arDialogParams[3] = "Grid_CsCode_SetValue";
+
+
+arDialogParams[4] = iRow;
+
+
+
+window.showModalDialog ( "/TNV/Common/Forms/InstantPopup.aspx?Module=OM&ClsName=C_CsMaster&MethodName=TreePopup&Condition=" + encodeURIComponent(strCondition) + "&WhereClause=&PopupHeight=370&PopupWidth=580&UseTree=Y", arDialogParams, 'dialogWidth:580px;dialogHeight:370px;dialogLeft:' + window.event.screenX + 'px;dialogTop:' + window.event.screenY + 'px;edge:sunken;help:no;status:no;');
+
+}
+
+else if ( iDataCnt >= iMaxRow )
+
+{
+
+
+Popup_Grid_CsCode(iRow);
+
+}
+}
+
+
+
+SHA-1: e5e66acc745ee0adfaa8b9c57c28c0c786e7a29e
+
+UpgradeList 8098
+
+
+----------------------------------
+
+
+画面ヘッダ部と明細部の得意先情報Popupの表示内容が異なる。
+（一方は口座が表示され、もう一方は口座が表示されない。）
+
+これを統一し、両方の口座が表示されるように修正する。
+
+2018/06/26追記
+以下の条件の場合、表示されるように修正する。
+　・CsMaster.CsCode=CsMaster.ParentCs (口座コードの場合)
+　・遷移元の画面が"SD407_得意先商品変換マスタ" OR "OM423_商流マスタ"
+修正後は現状の表示項目に追加して、上記に合致する口座データが表示されるようになる。
+
+
+RDM9824
+RDM10148
+
+
+SD407
+OM423
+
+NonLeafSelection=True
+口座コードが表示される
+得意先表示される
+
+NonLeafSelection=False
+口座コードが表示されない
+得意先表示されない
+
+
+//2018/06/27 MARS YuB ADD Start(SEQ014146Oの対応)
+//2018/06/27 MARS YuB ADD End(SEQ014146Oの対応)
+
+//2018/06/27 MARS YuB UPD Start(SEQ014146Oの対応)
+//2018/06/27 MARS YuB UPD End(SEQ014146Oの対応)
+
+//2018/06/27 MARS YuB DEL Start(SEQ014146Oの対応)
+//2018/06/27 MARS YuB DEL End(SEQ014146Oの対応)
+
+
+<%-- 2018/06/27 MARS YuB ADD Start(SEQ014146Oの対応) --%>
+<%-- 2018/06/27 MARS YuB ADD End(SEQ014146Oの対応) --%>
+
+<%-- 2018/06/27 MARS YuB UPD Start(SEQ014146Oの対応) --%>
+<%-- 2018/06/27 MARS YuB UPD End(SEQ014146Oの対応) --%>
+
+<%-- 2018/06/27 MARS YuB DEL Start(SEQ014146Oの対応) --%>
+<%-- 2018/06/27 MARS YuB DEL End(SEQ014146Oの対応) --%>
+
+
+SHA-1: 0022da430ea85530eaf883cab0b8d29d9564bf60
+
+UpgradeList 8472
+
+web/TNV/glb/OM/OM423/OM423.aspx
+
+C_DefaultDept以外的口座コード也要显示出来
+505
+
+1323
+
+
+SD407
+OM423
+
+OM431
+得意先入数マスタ
+
+C_DefaultDept<>{0}
+
+
+
+a2b353634f72e44a3e6d68eebddc8550169b89fa
+
+UpgradeList 8472
+
+web/TNV/glb/OM/OM423/OM423.aspx
+web/TNVSVC/App_Code/OM/C_CsMaster.asmx.cs
+
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014146O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014172O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+売先１
+
+238DB
+TNV_OM
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\SEQ014172O\tnv65-hybrish-source-github\web
+
+SEQ014172O
+
+メイン画面：
+OM400_Data.aspx
+
+画面：
+OM400_SalesDest1Popup.aspx
+
+アップロードチェック：
+C_CsMaster.asmx.cs
+
+
+取引先コード CsCode
+ArCheck
+C_ChiefComCheck
+
+旧担当者（コード）（新）
+半角チェックを追加
+同左               C_OldEmpCode1
+旧担当者（コード）（旧）
+半角チェックを追加
+同左               C_OldEmpCode2
+
+
+//2018/06/18 MARS YuB ADD Start(SEQ014172Oの対応)
+//2018/06/18 MARS YuB ADD End(SEQ014172Oの対応)
+
+//2018/06/18 MARS YuB UPD Start(SEQ014172Oの対応)
+//2018/06/18 MARS YuB UPD End(SEQ014172Oの対応)
+
+//2018/06/18 MARS YuB DEL Start(SEQ014172Oの対応)
+//2018/06/18 MARS YuB DEL End(SEQ014172Oの対応)
+
+
+SHA-1: 194e311f2a2f64a5eafe9c47192db91234a92886
+
+UpgradeList 8167
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014172O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014159O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+YuB_SEQ014159O
+
+14159
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\YuB_SEQ014159O\tnv65-hybrish-source-github\web
+
+
+画面
+OM400_Data.aspx
+
+top: 463px
+
+top: 421px
+top: 418px
+
+top: 445px
+top: 442px
+
+
+
+top: 421px　⇒　top: 442px
+top: 418px　⇒　top: 439px
+
+top: 445px　⇒　top: 466px
+top: 442px　⇒　top: 463px
+21
+
+
+//2018/06/18 MARS YuB ADD Start(SEQ014159Oの対応)
+//2018/06/18 MARS YuB ADD End(SEQ014159Oの対応)
+
+//2018/06/18 MARS YuB UPD Start(SEQ014159Oの対応)
+//2018/06/18 MARS YuB UPD End(SEQ014159Oの対応)
+
+//2018/06/18 MARS YuB DEL Start(SEQ014159Oの対応)
+//2018/06/18 MARS YuB DEL End(SEQ014159Oの対応)
+
+
+<%-- 2018/06/18 MARS YuB ADD Start(SEQ014159Oの対応) --%>
+<%-- 2018/06/18 MARS YuB ADD End(SEQ014159Oの対応) --%>
+
+<%-- 2018/06/18 MARS YuB UPD Start(SEQ014159Oの対応) --%>
+<%-- 2018/06/18 MARS YuB UPD End(SEQ014159Oの対応) --%>
+
+<%-- 2018/06/18 MARS YuB DEL Start(SEQ014159Oの対応) --%>
+<%-- 2018/06/18 MARS YuB DEL End(SEQ014159Oの対応) --%>
+
+
+SHA-1: cc800021459888ec6dc06aacedac4e2a598d8219
+
+UpgradeList 8200
+
+web/TNV/glb/OM/OM400/OM400_Data.aspx
+web/TNV/glb/OM/OM400/OM400_jpn.resx
+
+
+
+
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\develop\tnv65-hybrish-source-github\web
+
+
+btnRegister
+btnEdit
+btnDelete
+btnAccountingUseRegister
+btnAccountingUseEdit
+btnAccountingUseDelete
+
+width: 203px; 
+
+110
+265
+95
+213
+
+
+125
+270
+
+
+
+width: 100px; 
+width: 156px; 
+
+
+SHA-1: a3fa9f9356babef5e30170ad1e3fbca823639a2d
+
+UpgradeList 8214
+
+web/TNV/glb/OM/OM400/OM400_Data.aspx
+web/TNV/glb/OM/OM400/OM400_Grid.aspx
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014159O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014216O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+SEQ014216O
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\SEQ014216O\tnv65-hybrish-source-github\web
+
+
+画面左
+OM426_Data.aspx
+
+画面右
+OM426_Main.aspx
+
+
+
+
+マージ
+544
+OM426_main.aspx
+
+
+mklink /j C:\inetpub\wwwroot C:\00.Work\TNV-Source\develop\tnv65-hybrish-source-github\web
+
+
+btnDownload 1
+btnClear 2
+btnUpdate 3
+btnDelete 4
+
+txtUserId
+chkInUse
+txtPassword
+txtPassConfirmation
+txtUserName
+rboUserTypeN
+calUserBdate
+calUserEdate
+txtUserDescr
+ddlAuthorityGroup
+ddlOrganPattern
+ddlDept 13
+ddlJobPosition
+ddlWh 15
+
+
+
+if (current.id == "ddlWh") {
+                
+
+var btnDownload = document.getElementById("btnDownload").disabled;
+                
+
+if (btnDownload) {
+                
+
+
+document.getElementById("btnClear").focus();
+                
+
+
+return false;
+                
+
+} else {
+                
+
+
+document.getElementById("btnDownload").focus();
+                
+
+
+return false;
+                
+
+}
+                
+} else if (current.id == "ddlDept") {
+                
+
+var btnDownload = document.getElementById("ddlJobPosition").disabled;
+                
+
+if (btnDownload) {
+                
+
+
+document.getElementById("ddlWh").focus();
+                
+
+
+return false;
+                
+
+} else {
+                
+
+
+document.getElementById("ddlJobPosition").focus();
+                
+
+
+return false;
+                
+
+}
+                
+} else if (current.id == "ddlJobPosition") {
+                
+
+var btnDownload = document.getElementById("ddlWh").disabled;
+                
+
+if (btnDownload) {
+                
+
+
+document.getElementById("btnDownload").focus();
+                
+
+
+return false;
+                
+
+} else {
+                
+
+
+document.getElementById("ddlWh").focus();
+                
+
+
+return false;
+                
+
+}
+                
+} else 
+
+
+//2018/06/19 MARS YuB ADD Start(SEQ014216Oの対応)
+//2018/06/19 MARS YuB ADD End(SEQ014216Oの対応)
+
+//2018/06/19 MARS YuB UPD Start(SEQ014216Oの対応)
+//2018/06/19 MARS YuB UPD End(SEQ014216Oの対応)
+
+//2018/06/19 MARS YuB DEL Start(SEQ014216Oの対応)
+//2018/06/19 MARS YuB DEL End(SEQ014216Oの対応)
+
+
+<%-- 2018/06/19 MARS YuB ADD Start(SEQ014216Oの対応) --%>
+<%-- 2018/06/19 MARS YuB ADD End(SEQ014216Oの対応) --%>
+
+<%-- 2018/06/19 MARS YuB UPD Start(SEQ014216Oの対応) --%>
+<%-- 2018/06/19 MARS YuB UPD End(SEQ014216Oの対応) --%>
+
+<%-- 2018/06/19 MARS YuB DEL Start(SEQ014216Oの対応) --%>
+<%-- 2018/06/19 MARS YuB DEL End(SEQ014216Oの対応) --%>
+
+SHA-1: 85c71c6a9f0786ddf63232909ff59a0d7bbc6ae5
+
+UpgradeList 8243
+
+web/TNV/glb/OM/OM426/OM426_Main.aspx
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014216O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ013865O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+SEQ013865O
+
+高山メニュー>購買（PO）>購買（PO）>特計条件・帳合登録マスタ
+PO457
+
+事業所　508
+リベート区分　帳合Ａ
+得意先　1100021
+
+------------------------------------------------------
+
+PO457_特計条件・帳合登録マスタ　添付「」の内容で変更して下さい。
+
+2018/6/10追記
+①計算式２、計算コード（倉出）、及び、計算コード（直送）について、計算コードをプルダウンから空白以外を選択して
+　条件を未入力で更新した場合にエラーとなりません。「条件を入力して下さい。」でエラーとなるようにして下さい。
+②条件が入力されていて、計算コードが未入力で更新した場合はエラーとして下さい。
+　エラーメッセージ：計算式１（倉出・直送）の計算コードを入力して下さい。　または　計算式２（倉出・直送）の計算コードを入力して下さい。
+
+2018/6/11追記
+検索ボタン押下で対象データが無い場合に、ヘッダー項目を非活性化して下さい。
+（「SEQ013865O証跡２.xlsx」を御参照ください）
+
+2018/06/19追記
+更新ボタン押下時に条件に"0"が入力されていた場合、入力無しとみなしてください。
+その結果、以下のような動作になる想定です。
+　ddl選択あり、条件"0.00"⇒『条件が入力されていません。』エラー
+　ddl選択なし、条件"0.00"⇒入力なしで更新
+「条件」は計算式１と計算式２の両方が対象になります。
+===============================
+Ở PO457_特計条件・帳合登録マスタ, hãy thay đổi bằng nội dung của 「」 đính kèm.
+
+
+2018/6/10追記
+①Về 計算式２、計算コード（倉出）、và、計算コード（直送）、từ pulldown 計算コード lựa chọn khác blank
+　thì không bị error trong trường hợp update mà không input điều kiện。hay để error là 「条件を入力して下さい。/hãy input điều kiện」。
+②trường hợp đã điều kiện đã được input 、và update mà chưa input 計算コード thì hãy để là error。
+　error message ：計算式１（倉出・直送）の計算コードを入力して下さい。　hoặc　計算式２（倉出・直送）の計算コードを入力して下さい
+
+2018/10/11追記
+Trường hợp khi ấn button tìm kiếm mà không có data đối tượng, thì hãy inactive item header.
+（hãy tham chiếu 「SEQ013865O証跡２.xlsx」）
+
+------------------------------------------------------
+
+
+
+
+//2018/06/20 MARS YuB ADD Start(SEQ013865Oの対応)
+//2018/06/20 MARS YuB ADD End(SEQ013865Oの対応)
+
+//2018/06/20 MARS YuB UPD Start(SEQ013865Oの対応)
+//2018/06/20 MARS YuB UPD End(SEQ013865Oの対応)
+
+//2018/06/20 MARS YuB DEL Start(SEQ013865Oの対応)
+//2018/06/20 MARS YuB DEL End(SEQ013865Oの対応)
+
+
+<%-- 2018/06/20 MARS YuB ADD Start(SEQ013865Oの対応) --%>
+<%-- 2018/06/20 MARS YuB ADD End(SEQ013865Oの対応) --%>
+
+<%-- 2018/06/20 MARS YuB UPD Start(SEQ013865Oの対応) --%>
+<%-- 2018/06/20 MARS YuB UPD End(SEQ013865Oの対応) --%>
+
+<%-- 2018/06/20 MARS YuB DEL Start(SEQ013865Oの対応) --%>
+<%-- 2018/06/20 MARS YuB DEL End(SEQ013865Oの対応) --%>
+
+
+SHA-1: 38a1f7459ec88a5448c526fe610c960559cef7f3
+
+SHA-1: 2227e8c1105dd0cb96438337550a83c88cb6599c
+
+UpgradeList　8288
+
+web/TNVSVC/App_Code/PO/C_poRebateManage.asmx.cs
+web/TNVSVC/PO/C_poRebateManage_jpn.resx
+
+
+
+
+
+
+
+                    //[倉出コード1] のループ位置の要素は未入力、[倉出条件1] のループ位置の要素は「0.00」入力の場合
+                    if ((string.IsNullOrWhiteSpace(sarCalcCodeWh1[i]) && "0.00".Equals(sarCalcValueWh1[i])))
+                    {
+                        sarCalcValueWh1[i] = "";
+                    }
+                    //[直送コード1] のループ位置の要素は未入力、[直送条件1] のループ位置の要素は「0.00」入力の場合
+                    if ((string.IsNullOrWhiteSpace(sarCalcCodeSS1[i]) && "0.00".Equals(sarCalcValueSS1[i])))
+                    {
+                        sarCalcValueSS1[i] = "";
+                    }
+                    //[倉出コード2] のループ位置の要素は未入力、[倉出条件2] のループ位置の要素は「0.00」入力の場合
+                    if ((string.IsNullOrWhiteSpace(sarCalcCodeWh2[i]) && "0.00".Equals(sarCalcValueWh2[i])))
+                    {
+                        sarCalcValueWh2[i] = "";
+                    }
+                    //[直送コード2] のループ位置の要素は未入力、[直送条件2] のループ位置の要素は「0.00」入力の場合
+                    if ((string.IsNullOrWhiteSpace(sarCalcCodeSS2[i]) && "0.00".Equals(sarCalcValueSS2[i])))
+                    {
+                        sarCalcValueSS2[i] = "";
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DECLARE @CsUse nchar(1)
+
+
+
+
+
+
+
+DECLARE @ItemUse nchar(1)
+
+
+
+
+
+
+
+DECLARE @ParentCs nchar(12)
+
+
+
+
+
+
+
+DECLARE @C_DefaultDept nchar(8)
+
+
+
+
+
+
+
+DECLARE @OperationTime nvarchar(25)
+
+
+
+
+
+
+
+DECLARE @rowNumber numeric
+
+
+
+
+
+
+
+DECLARE @tmpItemCd nchar(20)
+
+
+
+
+
+
+
+
+-- 2018/01/12 USOL-V GiangKQ ADD Start(SEQ010649Oの対応)
+
+
+
+
+
+
+
+DECLARE @SubconLawApply nchar(1)
+
+
+
+
+
+
+
+DECLARE @ItemPbType nchar(1)
+
+
+
+
+
+
+
+-- 2018/01/12 USOL-V GiangKQ ADD End(SEQ010649Oの対応)
+
+
+
+
+
+
+
+
+CREATE TABLE #TempRebate(
+
+
+
+
+
+
+
+
+SiteCode
+
+
+
+nchar(4)
+
+
+
+
+
+
+
+
+, DeptCode
+
+
+
+nchar(8)
+
+
+
+
+
+
+
+
+, C_RebateGubun
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_deliveryType
+
+nchar(1)
+
+
+
+
+
+
+
+
+, PoCsCode
+
+
+
+nchar(12)
+
+
+
+
+
+
+
+
+, CsCode
+
+
+
+nchar(12)
+
+
+
+
+
+
+
+
+, C_ItemJanCode
+
+
+nvarchar(20)
+
+
+
+
+
+
+
+
+, C_ItemClassCode
+
+nchar(2)
+
+
+
+
+
+
+
+
+, SalesPrice
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_RebatePay
+
+
+nchar(4)
+
+
+
+
+
+
+
+
+, C_poRegSaleGubun
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcCode1
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcValue1
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_CalcCode2
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcValue2
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_Styyyymm
+
+
+nchar(6)
+
+
+
+
+
+
+
+
+, C_Edyyyymm
+
+
+nchar(6)
+
+
+
+
+
+
+
+
+, RebateUse
+
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, ItemCode
+
+
+
+nchar(20)
+
+
+
+
+
+
+
+
+, UpdateGubun
+
+
+nchar(1))
+CREATE TABLE #OperationTimeTbl (OperationTime datetime) 
+
+
+
+
+
+
+
+
+
+
+
+SET @OperationTime = NULL
+
+
+
+
+
+
+
+
+
+
+
+SELECT @OperationTime = Convert(nvarchar(25), MAX(OperationTime), 121)
+
+
+
+
+
+
+
+
+
+
+
+FROM C_RebateMaster
+
+
+
+
+
+
+
+
+
+
+WHERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+SiteCode = N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+AND DeptCode = N'508'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_RebateGubun = N'1'
+
+
+
+
+
+
+
+
+
+
+
+
+AND PoCsCode = N'2001022'
+
+
+
+
+
+
+
+
+
+
+
+
+AND CsCode = N'1100021'
+
+
+
+
+
+
+
+
+
+
+
+
+AND ItemCode = ''
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_ItemJanCode = ''
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_ItemClassCode = N'05'
+
+
+
+
+
+
+
+
+
+
+
+
+AND SalesPrice = N'0.00000000'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_Styyyymm = N'201805'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_poRegSaleGubun = null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF @OperationTime > N'2018-06-20 16:28:42.700'
+
+
+
+
+
+
+
+
+
+
+BEGIN
+
+
+
+
+
+
+
+
+
+
+
+SELECT 'CR', '他で更新されました、再度照会して下さい。'
+
+
+
+
+
+
+
+
+
+
+
+GOTO Ending
+
+
+
+
+
+
+
+
+
+
+END
+INSERT INTO #TempRebate(SiteCode
+
+
+
+
+
+
+
+
+
+
+
+
+,DeptCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+,PoCsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,CsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemJanCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemClassCode
+
+
+
+
+
+
+
+
+
+
+
+
+,SalesPrice
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebatePay
+
+
+
+
+
+
+
+
+
+
+
+
+,C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Styyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Edyyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,RebateUse
+
+
+
+
+
+
+
+
+
+
+
+
+,ItemCode
+
+
+
+
+
+
+
+
+
+
+
+
+,UpdateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+) 
+
+
+
+
+
+
+
+
+
+
+
+VALUES(
+
+N'0001'
+,N'508'
+,N'1'
+, '1'
+,N'2001022'
+,N'1100021'
+, ' '
+,N'05'
+, 0
+, ''
+, ''
+,N'1'
+,N'2.00'
+,null
+,N'0.00'
+,N'201805'
+,N'205012'
+,N'Y'
+, ''
+,'1')
+INSERT INTO #TempRebate (SiteCode
+
+
+
+
+
+
+
+
+
+
+
+
+,DeptCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+,PoCsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,CsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemJanCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemClassCode
+
+
+
+
+
+
+
+
+
+
+
+
+,SalesPrice
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebatePay
+
+
+
+
+
+
+
+
+
+
+
+
+,C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Styyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Edyyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,RebateUse
+
+
+
+
+
+
+
+
+
+
+
+
+,ItemCode
+
+
+
+
+
+
+
+
+
+
+
+
+,UpdateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(SELECT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,RBH.DeptCode
+,N'1'
+, '1'
+,N'2001022'
+,N'1100021'
+, ' '
+,N'05'
+, 0
+, ''
+, ''
+,N'1'
+,N'2.00'
+,null
+,N'0.00'
+,N'201805'
+,N'205012'
+,N'Y'
+, ''
+, '1'
+FROM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rpBillHeader as RBH
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RBH.SiteCode = N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.ArApGubun = 'AR'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND (RBH.SysCase = null OR SysCase = null)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND (RBH.CaseCode = null OR CaseCode = null)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.CsCode = N'1100021'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.BillDate > CONVERT (CHAR(8), DATEADD(year, -1 ,GETDATE()), 112)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.DeptCode <> N'508'
+
+
+
+
+
+
+
+
+
+
+
+
+
+GROUP BY 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RBH.DeptCode)
+
+
+
+
+
+
+
+
+SELECT '00'
+
+
+
+
+
+
+
+ENDING:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DECLARE @CsUse nchar(1)
+
+
+
+
+
+
+
+DECLARE @ItemUse nchar(1)
+
+
+
+
+
+
+
+DECLARE @ParentCs nchar(12)
+
+
+
+
+
+
+
+DECLARE @C_DefaultDept nchar(8)
+
+
+
+
+
+
+
+DECLARE @OperationTime nvarchar(25)
+
+
+
+
+
+
+
+DECLARE @rowNumber numeric
+
+
+
+
+
+
+
+DECLARE @tmpItemCd nchar(20)
+
+
+
+
+
+
+
+
+-- 2018/01/12 USOL-V GiangKQ ADD Start(SEQ010649Oの対応)
+
+
+
+
+
+
+
+DECLARE @SubconLawApply nchar(1)
+
+
+
+
+
+
+
+DECLARE @ItemPbType nchar(1)
+
+
+
+
+
+
+
+-- 2018/01/12 USOL-V GiangKQ ADD End(SEQ010649Oの対応)
+
+
+
+
+
+
+
+
+CREATE TABLE #TempRebate(
+
+
+
+
+
+
+
+
+SiteCode
+
+
+
+nchar(4)
+
+
+
+
+
+
+
+
+, DeptCode
+
+
+
+nchar(8)
+
+
+
+
+
+
+
+
+, C_RebateGubun
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_deliveryType
+
+nchar(1)
+
+
+
+
+
+
+
+
+, PoCsCode
+
+
+
+nchar(12)
+
+
+
+
+
+
+
+
+, CsCode
+
+
+
+nchar(12)
+
+
+
+
+
+
+
+
+, C_ItemJanCode
+
+
+nvarchar(20)
+
+
+
+
+
+
+
+
+, C_ItemClassCode
+
+nchar(2)
+
+
+
+
+
+
+
+
+, SalesPrice
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_RebatePay
+
+
+nchar(4)
+
+
+
+
+
+
+
+
+, C_poRegSaleGubun
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcCode1
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcValue1
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_CalcCode2
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcValue2
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_Styyyymm
+
+
+nchar(6)
+
+
+
+
+
+
+
+
+, C_Edyyyymm
+
+
+nchar(6)
+
+
+
+
+
+
+
+
+, RebateUse
+
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, ItemCode
+
+
+
+nchar(20)
+
+
+
+
+
+
+
+
+, UpdateGubun
+
+
+nchar(1))
+CREATE TABLE #OperationTimeTbl (OperationTime datetime) 
+
+
+
+
+
+
+
+
+
+
+
+SET @OperationTime = NULL
+
+
+
+
+
+
+
+
+
+
+
+SELECT @OperationTime = Convert(nvarchar(25), MAX(OperationTime), 121)
+
+
+
+
+
+
+
+
+
+
+
+FROM C_RebateMaster
+
+
+
+
+
+
+
+
+
+
+WHERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+SiteCode = N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+AND DeptCode = N'508'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_RebateGubun = N'1'
+
+
+
+
+
+
+
+
+
+
+
+
+AND PoCsCode = N'2001022'
+
+
+
+
+
+
+
+
+
+
+
+
+AND CsCode = N'1100021'
+
+
+
+
+
+
+
+
+
+
+
+
+AND ItemCode = ''
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_ItemJanCode = ''
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_ItemClassCode = N'05'
+
+
+
+
+
+
+
+
+
+
+
+
+AND SalesPrice = N'0.00000000'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_Styyyymm = N'201805'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_poRegSaleGubun = null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF @OperationTime > N'2018-06-20 16:05:08.447'
+
+
+
+
+
+
+
+
+
+
+BEGIN
+
+
+
+
+
+
+
+
+
+
+
+SELECT 'CR', '他で更新されました、再度照会して下さい。'
+
+
+
+
+
+
+
+
+
+
+
+GOTO Ending
+
+
+
+
+
+
+
+
+
+
+END
+INSERT INTO #TempRebate(SiteCode
+
+
+
+
+
+
+
+
+
+
+
+
+,DeptCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+,PoCsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,CsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemJanCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemClassCode
+
+
+
+
+
+
+
+
+
+
+
+
+,SalesPrice
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebatePay
+
+
+
+
+
+
+
+
+
+
+
+
+,C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Styyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Edyyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,RebateUse
+
+
+
+
+
+
+
+
+
+
+
+
+,ItemCode
+
+
+
+
+
+
+
+
+
+
+
+
+,UpdateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+) 
+
+
+
+
+
+
+
+
+
+
+
+VALUES(
+
+N'0001'
+,N'508'
+,N'1'
+, '1'
+,N'2001022'
+,N'1100021'
+, ' '
+,N'05'
+, 0
+, ''
+, ''
+,N'1'
+,N'2.00'
+,N'1'
+,N'6.00'
+,N'201805'
+,N'205012'
+,N'Y'
+, ''
+,'1')
+INSERT INTO #TempRebate (SiteCode
+
+
+
+
+
+
+
+
+
+
+
+
+,DeptCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+,PoCsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,CsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemJanCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemClassCode
+
+
+
+
+
+
+
+
+
+
+
+
+,SalesPrice
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebatePay
+
+
+
+
+
+
+
+
+
+
+
+
+,C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Styyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Edyyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,RebateUse
+
+
+
+
+
+
+
+
+
+
+
+
+,ItemCode
+
+
+
+
+
+
+
+
+
+
+
+
+,UpdateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(SELECT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,RBH.DeptCode
+,N'1'
+, '1'
+,N'2001022'
+,N'1100021'
+, ' '
+,N'05'
+, 0
+, ''
+, ''
+,N'1'
+,N'2.00'
+,N'1'
+,N'6.00'
+,N'201805'
+,N'205012'
+,N'Y'
+, ''
+, '1'
+FROM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rpBillHeader as RBH
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RBH.SiteCode = N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.ArApGubun = 'AR'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND (RBH.SysCase = null OR SysCase = null)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND (RBH.CaseCode = null OR CaseCode = null)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.CsCode = N'1100021'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.BillDate > CONVERT (CHAR(8), DATEADD(year, -1 ,GETDATE()), 112)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.DeptCode <> N'508'
+
+
+
+
+
+
+
+
+
+
+
+
+
+GROUP BY 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RBH.DeptCode)
+INSERT INTO #TempRebate(SiteCode
+
+
+
+
+
+
+
+
+
+
+
+
+,DeptCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+,PoCsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,CsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemJanCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemClassCode
+
+
+
+
+
+
+
+
+
+
+
+
+,SalesPrice
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebatePay
+
+
+
+
+
+
+
+
+
+
+
+
+,C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Styyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Edyyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,RebateUse
+
+
+
+
+
+
+
+
+
+
+
+
+,ItemCode
+
+
+
+
+
+
+
+
+
+
+
+
+,UpdateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+) 
+
+
+
+
+
+
+
+
+
+
+
+VALUES(
+N'0001'
+,N'508'
+,N'1'
+, '2',N'2001022'
+,N'1100021'
+, ' '
+,N'05'
+, 0
+, ''
+, ''
+,N'3'
+,N'4.00'
+,N'3'
+,N'8.00'
+,N'201805'
+,N'205012'
+,N'Y'
+, ''
+, '1')
+INSERT INTO #TempRebate(SiteCode
+
+
+
+
+
+
+
+
+
+
+
+
+,DeptCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+,PoCsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,CsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemJanCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemClassCode
+
+
+
+
+
+
+
+
+
+
+
+
+,SalesPrice
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebatePay
+
+
+
+
+
+
+
+
+
+
+
+
+,C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Styyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Edyyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,RebateUse
+
+
+
+
+
+
+
+
+
+
+
+
+,ItemCode
+
+
+
+
+
+
+
+
+
+
+
+
+,UpdateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(SELECT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,RBH.DeptCode,N'1'
+, '2'
+,N'2001022'
+,N'1100021'
+, ' '
+,N'05'
+, 0
+, ''
+, ''
+,N'3'
+,N'4.00'
+,N'3'
+,N'8.00'
+,N'201805'
+,N'205012'
+,N'Y'
+, ''
+, '1'
+FROM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rpBillHeader as RBH
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RBH.SiteCode = N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.ArApGubun = 'AR'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND (RBH.SysCase = null OR SysCase = null)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND (RBH.CaseCode = null OR CaseCode = null)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.CsCode = N'1100021'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.BillDate > CONVERT(CHAR(8), DATEADD(year, -1, GETDATE()), 112)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.DeptCode <> N'508'
+
+
+
+
+
+
+
+
+
+
+
+
+
+GROUP BY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RBH.DeptCode)
+
+
+
+
+
+
+
+
+SELECT '00'
+
+
+
+
+
+
+
+ENDING:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DECLARE @CsUse nchar(1)
+
+
+
+
+
+
+
+DECLARE @ItemUse nchar(1)
+
+
+
+
+
+
+
+DECLARE @ParentCs nchar(12)
+
+
+
+
+
+
+
+DECLARE @C_DefaultDept nchar(8)
+
+
+
+
+
+
+
+DECLARE @OperationTime nvarchar(25)
+
+
+
+
+
+
+
+DECLARE @rowNumber numeric
+
+
+
+
+
+
+
+DECLARE @tmpItemCd nchar(20)
+
+
+
+
+
+
+
+
+-- 2018/01/12 USOL-V GiangKQ ADD Start(SEQ010649Oの対応)
+
+
+
+
+
+
+
+DECLARE @SubconLawApply nchar(1)
+
+
+
+
+
+
+
+DECLARE @ItemPbType nchar(1)
+
+
+
+
+
+
+
+-- 2018/01/12 USOL-V GiangKQ ADD End(SEQ010649Oの対応)
+
+
+
+
+
+
+
+
+CREATE TABLE #TempRebate(
+
+
+
+
+
+
+
+
+SiteCode
+
+
+
+nchar(4)
+
+
+
+
+
+
+
+
+, DeptCode
+
+
+
+nchar(8)
+
+
+
+
+
+
+
+
+, C_RebateGubun
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_deliveryType
+
+nchar(1)
+
+
+
+
+
+
+
+
+, PoCsCode
+
+
+
+nchar(12)
+
+
+
+
+
+
+
+
+, CsCode
+
+
+
+nchar(12)
+
+
+
+
+
+
+
+
+, C_ItemJanCode
+
+
+nvarchar(20)
+
+
+
+
+
+
+
+
+, C_ItemClassCode
+
+nchar(2)
+
+
+
+
+
+
+
+
+, SalesPrice
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_RebatePay
+
+
+nchar(4)
+
+
+
+
+
+
+
+
+, C_poRegSaleGubun
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcCode1
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcValue1
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_CalcCode2
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, C_CalcValue2
+
+
+numeric(28,8)
+
+
+
+
+
+
+
+
+, C_Styyyymm
+
+
+nchar(6)
+
+
+
+
+
+
+
+
+, C_Edyyyymm
+
+
+nchar(6)
+
+
+
+
+
+
+
+
+, RebateUse
+
+
+
+nchar(1)
+
+
+
+
+
+
+
+
+, ItemCode
+
+
+
+nchar(20)
+
+
+
+
+
+
+
+
+, UpdateGubun
+
+
+nchar(1))
+CREATE TABLE #OperationTimeTbl (OperationTime datetime) 
+
+
+
+
+
+
+
+
+
+
+
+SET @OperationTime = NULL
+
+
+
+
+
+
+
+
+
+
+
+SELECT @OperationTime = Convert(nvarchar(25), MAX(OperationTime), 121)
+
+
+
+
+
+
+
+
+
+
+
+FROM C_RebateMaster
+
+
+
+
+
+
+
+
+
+
+WHERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+SiteCode = N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+AND DeptCode = N'508'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_RebateGubun = N'1'
+
+
+
+
+
+
+
+
+
+
+
+
+AND PoCsCode = N'2001022'
+
+
+
+
+
+
+
+
+
+
+
+
+AND CsCode = N'1100021'
+
+
+
+
+
+
+
+
+
+
+
+
+AND ItemCode = ''
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_ItemJanCode = ''
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_ItemClassCode = N'05'
+
+
+
+
+
+
+
+
+
+
+
+
+AND SalesPrice = N'0.00000000'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_Styyyymm = N'201805'
+
+
+
+
+
+
+
+
+
+
+
+
+AND C_poRegSaleGubun = null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF @OperationTime > N'2018-06-20 16:22:29.837'
+
+
+
+
+
+
+
+
+
+
+BEGIN
+
+
+
+
+
+
+
+
+
+
+
+SELECT 'CR', '他で更新されました、再度照会して下さい。'
+
+
+
+
+
+
+
+
+
+
+
+GOTO Ending
+
+
+
+
+
+
+
+
+
+
+END
+INSERT INTO #TempRebate(SiteCode
+
+
+
+
+
+
+
+
+
+
+
+
+,DeptCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+,PoCsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,CsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemJanCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemClassCode
+
+
+
+
+
+
+
+
+
+
+
+
+,SalesPrice
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebatePay
+
+
+
+
+
+
+
+
+
+
+
+
+,C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Styyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Edyyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,RebateUse
+
+
+
+
+
+
+
+
+
+
+
+
+,ItemCode
+
+
+
+
+
+
+
+
+
+
+
+
+,UpdateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+) 
+
+
+
+
+
+
+
+
+
+
+
+VALUES(
+
+N'0001'
+,N'508'
+,N'1'
+, '1'
+,N'2001022'
+,N'1100021'
+, ' '
+,N'05'
+, 0
+, ''
+, ''
+,N'1'
+,N'2.00'
+,null
+,null
+,N'201805'
+,N'205012'
+,N'Y'
+, ''
+,'1')
+INSERT INTO #TempRebate (SiteCode
+
+
+
+
+
+
+
+
+
+
+
+
+,DeptCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+,PoCsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,CsCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemJanCode
+
+
+
+
+
+
+
+
+
+
+
+
+,C_ItemClassCode
+
+
+
+
+
+
+
+
+
+
+
+
+,SalesPrice
+
+
+
+
+
+
+
+
+
+
+
+
+,C_RebatePay
+
+
+
+
+
+
+
+
+
+
+
+
+,C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Styyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,C_Edyyyymm
+
+
+
+
+
+
+
+
+
+
+
+
+,RebateUse
+
+
+
+
+
+
+
+
+
+
+
+
+,ItemCode
+
+
+
+
+
+
+
+
+
+
+
+
+,UpdateGubun
+
+
+
+
+
+
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(SELECT 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,RBH.DeptCode
+,N'1'
+, '1'
+,N'2001022'
+,N'1100021'
+, ' '
+,N'05'
+, 0
+, ''
+, ''
+,N'1'
+,N'2.00'
+,null
+,null
+,N'201805'
+,N'205012'
+,N'Y'
+, ''
+, '1'
+FROM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rpBillHeader as RBH
+
+
+
+
+
+
+
+
+
+
+
+
+
+WHERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RBH.SiteCode = N'0001'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.ArApGubun = 'AR'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND (RBH.SysCase = null OR SysCase = null)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND (RBH.CaseCode = null OR CaseCode = null)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.CsCode = N'1100021'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.BillDate > CONVERT (CHAR(8), DATEADD(year, -1 ,GETDATE()), 112)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AND RBH.DeptCode <> N'508'
+
+
+
+
+
+
+
+
+
+
+
+
+
+GROUP BY 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RBH.DeptCode)
+
+
+
+
+
+
+
+
+SELECT '00'
+
+
+
+
+
+
+
+ENDING:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ SELECT 
+
+
+
+
+
+
+
+
+
+'N'
+
+
+
+
+
+
+
+
+
+,CRM.PoCsCode AS PoCsCode
+
+
+
+
+
+
+
+
+
+,CRM.CsCode AS CsCode
+
+
+
+
+
+
+
+
+
+,CRM.ItemCode AS ItemCode
+
+
+
+
+
+
+
+
+
+,CRM.C_ItemJanCode AS ItemJanCode
+
+
+
+
+
+
+
+
+
+,CRM.SalesPrice AS SalesPrice
+
+
+
+
+
+
+
+
+
+,CRM.C_poRegSaleGubun AS PoRegSaleGubun
+
+
+
+
+
+
+
+
+
+,'倉出'
+
+
+
+
+
+
+
+
+
+,SUM (Case CRM.C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+WHEN '1'
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEN CRM.C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+ELSE 0
+
+
+
+
+
+
+
+
+
+
+
+END) AS C_CalcCodeWH1
+
+
+
+
+
+
+
+
+
+,'条件'
+
+
+
+
+
+
+
+
+
+,SUM (Case CRM.C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+WHEN '1'
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEN CRM.C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+ELSE 0 
+
+
+
+
+
+
+
+
+
+
+
+END) AS C_CalcValueWH1
+
+
+
+
+
+
+
+
+
+,'倉出'
+
+
+
+
+
+
+
+
+
+,SUM (Case CRM.C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+WHEN '1'
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEN CRM.C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+ELSE 0
+
+
+
+
+
+
+
+
+
+
+
+END) AS C_CalcCodeWH2
+
+
+
+
+
+
+
+
+
+,'条件'
+
+
+
+
+
+
+
+
+
+,SUM (Case CRM.C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+WHEN '1'
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEN CRM.C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+ELSE 0
+
+
+
+
+
+
+
+
+
+
+
+END) AS C_CalcValueWH2
+
+
+
+
+
+
+
+
+
+,CRM.C_ItemClassCode AS ItemClassCode
+
+
+
+
+
+
+
+
+
+,CRM.C_Styyyymm AS Styyyymm
+
+
+
+
+
+
+
+
+
+,CRM.C_Edyyyymm AS Edyyyymm
+
+
+
+
+
+
+
+
+
+,CM1.CsName AS PoCsName
+
+
+
+
+
+
+
+
+
+,CM.CsName AS CsName
+
+
+
+
+
+
+
+
+
+,IM.C_ItemNameAbbrev AS ItemName --2018/05/21 MARS CHOU UPD ItemName⇒C_ItemNameAbbrev　SEQ013420O
+
+
+
+
+
+
+
+
+
+,'直送'
+
+
+
+
+
+
+
+
+
+,SUM (Case CRM.C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+WHEN '2'
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEN CRM.C_CalcCode1
+
+
+
+
+
+
+
+
+
+
+
+
+ELSE 0
+
+
+
+
+
+
+
+
+
+
+
+END) AS C_CalcCodeSS1
+
+
+
+
+
+
+
+
+
+,'条件'
+
+
+
+
+
+
+
+
+
+,SUM (Case CRM.C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+WHEN '2'
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEN CRM.C_CalcValue1
+
+
+
+
+
+
+
+
+
+
+
+
+ELSE 0
+
+
+
+
+
+
+
+
+
+
+
+END) AS C_CalcValueSS1
+
+
+
+
+
+
+
+
+
+,'直送'
+
+
+
+
+
+
+
+
+
+,SUM (Case CRM.C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+WHEN '2'
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEN CRM.C_CalcCode2
+
+
+
+
+
+
+
+
+
+
+
+
+ELSE 0
+
+
+
+
+
+
+
+
+
+
+
+END) AS C_CalcCodeSS2
+
+
+
+
+
+
+
+
+
+,'条件'
+
+
+
+
+
+
+
+
+
+,SUM (Case CRM.C_deliveryType
+
+
+
+
+
+
+
+
+
+
+
+
+WHEN '2'
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEN CRM.C_CalcValue2
+
+
+
+
+
+
+
+
+
+
+
+
+ELSE 0
+
+
+
+
+
+
+
+
+
+
+
+END) AS C_CalcValueSS2
+
+
+
+
+
+
+
+
+
+,CRM.RebateUse AS RebateUse
+
+
+
+
+
+
+
+
+
+,CRM.RebateUse AS Status
+
+
+
+
+
+
+
+
+
+,Convert(nvarchar(25), MAX(CRM.OperationTime), 121)
+
+
+
+
+
+
+
+
+
+,CRM.PoCsCode AS PoCsCodeHidden
+
+
+
+
+
+
+
+
+
+,CRM.CsCode AS CsCodeHidden
+
+
+
+
+
+
+
+
+
+,CRM.ItemCode AS ItemCodeHidden
+
+
+
+
+
+
+
+
+
+,CRM.C_ItemJanCode AS C_ItemJanCodeHidden
+
+
+
+
+
+
+
+
+
+,CRM.C_ItemClassCode AS C_ItemClassCodeHidden
+
+
+
+
+
+
+
+
+
+,CRM.SalesPrice AS SalesPriceHidden
+
+
+
+
+
+
+
+
+
+-- 2017/12/16 USOL-V TienTD DELETE Start(SEQ009880Oの対応)
+
+
+
+
+
+
+
+
+
+--,CRM.C_RebatePay AS RebatePay
+
+
+
+
+
+
+
+
+
+-- 2017/12/16 USOL-V TienTD DELETE End(SEQ009880Oの対応)
+
+
+
+
+
+
+
+
+
+,CRM.C_poRegSaleGubun AS PoRegSaleGubunHidden
+
+
+
+
+
+
+
+
+
+,CRM.C_Styyyymm AS StyyyymmHidden
+
+
+
+
+
+
+
+
+
+,CRM.C_Edyyyymm AS EdyyyymmHidden
+
+
+
+
+
+
+
+
+-- 2018/05/24 MARS CHOU UPD START (SEQ013493Oの対応)
+
+
+
+
+
+
+
+
+--FROM C_RebateMaster CRM
+
+
+
+
+
+
+
+
+
+,CRM.DeptCode
+
+
+
+
+
+
+
+
+FROM (
+
+
+
+
+
+
+
+
+
+SELECT * FROM C_RebateMaster WHERE SiteCode = N'0001' AND DeptCode = N'508'
+
+
+
+
+
+
+
+
+
+UNION
+
+
+
+
+
+
+
+
+
+SELECT * FROM C_RebateMaster WHERE  SiteCode = N'0001' AND DeptCode <> N'508'
+
+
+
+
+
+
+
+
+
+AND CsCode IN (SELECT ParentCs FROM CsMaster WHERE ComCode = N'0001' AND C_DefaultDept IN (N'101',N'301',N'502',N'503',N'504',N'505',N'508',N'510',N'515',N'516',N'519',N'520',N'521',N'522',N'526',N'528',N'620',N'721',N'769',N'799',N'B00',N'B01',N'B02',N'B03',N'B04',N'B05',N'B06',N'B07',N'B08',N'B09',N'511',N'527',N'K12'))
+
+
+
+
+
+
+
+
+
+) CRM 
+
+
+
+
+
+
+
+
+-- 2018/05/24 MARS CHOU UPD START (SEQ013493Oの対応)
+
+
+
+
+
+
+
+
+LEFT JOIN CsMaster CM
+
+
+
+
+
+
+
+
+
+ON CM.ComCode = N'0001'
+
+
+
+
+
+
+
+
+
+AND CM.CsCode = CRM.CsCode
+
+
+
+
+
+
+
+
+LEFT JOIN CsMaster CM1
+
+
+
+
+
+
+
+
+
+ON CM1.ComCode = N'0001'
+
+
+
+
+
+
+
+
+
+AND CM1.CsCode = CRM.PoCsCode
+
+
+
+
+
+
+
+
+LEFT JOIN ItemMaster IM
+
+
+
+
+
+
+
+
+
+ON IM.ComCode = N'0001'
+
+
+
+
+
+
+
+
+
+AND IM.ItemCode = CRM.ItemCode
+
+
+
+
+
+
+
+
+--2017/08/17　USOL-V TungHD　UPDATE　Start(SEQ005886Oの対応)
+
+
+
+
+
+
+
+
+--INNER JOIN CodeMaster COM
+
+
+
+
+
+
+
+
+LEFT JOIN CodeMaster COM
+
+
+
+
+
+
+
+
+--2017/08/17　USOL-V TungHD　UPDATE　End(SEQ005886Oの対応)
+
+
+
+
+
+
+
+
+
+ON COM.ComCode = N'0001'
+
+
+
+
+
+
+
+
+
+AND COM.CodeID = 'C_IROFlog'
+
+
+
+
+
+
+
+
+
+AND COM.CodeCode = CRM.C_poRegSaleGubun
+
+
+
+
+
+
+
+
+WHERE CRM.SiteCode = N'0001'
+
+
+
+
+
+
+
+
+
+--AND CRM.DeptCode = N'508' -- 2018/05/24 MARS CHOU DEL (SEQ013493Oの対応)
+
+
+
+
+
+
+
+
+
+AND CRM.C_RebateGubun = N'1'
+AND CRM.CsCode = N'1100021'
+GROUP BY CRM.PoCsCode
+
+
+
+
+
+
+
+
+
+,CM1.CsName
+
+
+
+
+
+
+
+
+
+,CRM.CsCode
+
+
+
+
+
+
+
+
+
+,CM.CsName
+
+
+
+
+
+
+
+
+
+,CRM.ItemCode
+
+
+
+
+
+
+
+
+
+,IM.C_ItemNameAbbrev --2018/05/21 MARS CHOU UPD ItemName⇒C_ItemNameAbbrev　SEQ013420O
+
+
+
+
+
+
+
+
+
+,CRM.C_ItemJanCode
+
+
+
+
+
+
+
+
+
+,CRM.C_ItemClassCode
+
+
+
+
+
+
+
+
+
+,CRM.SalesPrice
+
+
+
+
+
+
+
+
+
+,CRM.C_poRegSaleGubun
+
+
+
+
+
+
+
+
+
+,COM.CodeName
+
+
+
+
+
+
+
+
+
+,CRM.C_Styyyymm
+
+
+
+
+
+
+
+
+
+,CRM.C_Edyyyymm
+
+
+
+
+
+
+
+
+
+,CRM.RebateUse
+
+
+
+
+
+
+
+
+
+-- 2017/12/16 USOL-V TienTD DELETE Start(SEQ009880Oの対応)
+
+
+
+
+
+
+
+
+
+--,CRM.C_RebatePay
+
+
+
+
+
+
+
+
+
+-- 2017/12/16 USOL-V TienTD DELETE End(SEQ009880Oの対応)
+
+
+
+
+
+
+
+
+
+,CRM.DeptCode -- 2018/05/24 MARS CHOU ADD (SEQ013493Oの対応)
+
+
+
+
+
+
+
+
+ORDER BY CRM.PoCsCode
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ013865O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014275O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+送受信データ変換マスタ　正しい取引先コード更新時に消えてしまう。
+
+送受信データ変換マスタ画面
+明細のすでに入力済みの取引先コード(コードと名称が表示されている)を変更すると、
+マスタ登録済みのコードであるにも関わらずコードが消えてしまう。
+　※この時にJavaScriptエラーが発生していた。詳細は添付の「補足」シートを参照
+再度同じコードを入力するとコード+名称が表示される。
+
+修正後の期待する結果
+コードが消えないで名称とともに表示される。
+
+2018/06/25追記
+現状で取引先名称の入力が可能になってしまっているので、入力不可とする。
+
+
+SEQ014275O
+
+高山メニュー>マスター（OM）>マスター（OM）>送受信データ変換マスタ
+画面
+OM424.aspx
+
+参考：SD407
+
+ポップアップ画面
+InstantPopup.aspx
+
+データ種別　　発注（得意先）
+事業所　508
+
+110005
+
+
+document.all['Grid_CsCode_' + iRow].value = ''; document.all['Grid_CsName_' + iRow].value = '';
+
+
+var popupId = current.previousSibling.id;
+Grid_CsCode_Edit
+Grid_CsCode_InstantCheck
+C01_InstantCheck
+
+"CsCode/CsName/EmpName/DeptName/CodeName/CsCode = 110005|CsName = ＩＹ　直江津店|CodeDesrc = 販売先|CsCode = 110005|"
+
+
+"CsCode/CsName/EmpName/DeptName/CodeName/CsCode = 110005|CsName = |CodeDesrc = 販売先|CsCode = 110005|"
+
+
+function popCsMaster_InstantCheck ()
+372
+
+function Grid_CsCode_InstantCheck (iRow,strColumnID)
+727
+
+var items = PopupGateWay ( "http://localhost/TNV", "OM", "C_CsMaster", "Popup", "", strCondition );
+
+
+
+//2018/06/25　MARS YuB ADD Start(SEQ014275Oの対応)
+//2018/06/25　MARS YuB ADD End(SEQ014275Oの対応)
+
+//2018/06/25　MARS YuB UPD Start(SEQ014275Oの対応)
+//2018/06/25　MARS YuB UPD End(SEQ014275Oの対応)
+
+//2018/06/25　MARS YuB DEL Start(SEQ014275Oの対応)
+//2018/06/25　MARS YuB DEL End(SEQ014275Oの対応)
+
+
+<%-- 2018/06/25　MARS YuB ADD Start(SEQ014275Oの対応) --%>
+<%-- 2018/06/25　MARS YuB ADD End(SEQ014275Oの対応) --%>
+
+<%-- 2018/06/25　MARS YuB UPD Start(SEQ014275Oの対応) --%>
+<%-- 2018/06/25　MARS YuB UPD End(SEQ014275Oの対応) --%>
+
+<%-- 2018/06/25　MARS YuB DEL Start(SEQ014275Oの対応) --%>
+<%-- 2018/06/25　MARS YuB DEL End(SEQ014275Oの対応) --%>
+
+SHA-1: 834ac8605a5db01dad409ec08fb190e01ed0cca3
+
+
+UpgradeList 8427
+
+web/TNV/glb/OM/OM424/OM424.aspx
+
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014275O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014306O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+
+SEQ014306O
+
+画面左
+OM426_Data.aspx
+
+画面右
+OM426_Main.aspx
+
+
+検索後に表示されたリストを選択すると、以下のパターンで右フレームの入力可能項目が変更する。
+　1.使用者区分が「一般」と「管理者」
+　2.使用者区分が「社員以外」と「物流」
+上記の２パターンでTABインデックスの設定がおかしいため、TAB押下を繰り返すと画面外に飛び出してしまう。
+それを修正して入力可能項目だけでTABが遷移するようにする。
+
+ついでに、検索後の表示されたリストを選択した際、右フレームの最初の入力可能項目にフォーカスを遷移するように修正する。
+
+
+SEQ014159O
+web/TNV/glb/OM/OM400/OM400_Data.aspx
+web/TNV/glb/OM/OM400/OM400_Grid.aspx
+
+
+ddlDept
+txtUserId
+txtUsername
+rboTypeN
+rboTypeS
+rboTypeG
+rboTypeB
+ddlJobPosition
+ddlSearchCondition
+btnSearch
+
+
+
+btnDownload 1
+btnClear 2
+btnUpdate 3
+btnDelete 4
+
+txtUserId
+chkInUse
+txtPassword
+txtPassConfirmation
+txtUserName
+rboUserTypeN
+calUserBdate
+calUserEdate
+txtUserDescr
+ddlAuthorityGroup
+ddlOrganPattern
+ddlDept 13
+ddlJobPosition
+ddlWh 15
+
+
+//2018/06/21　MARS YuB ADD Start(SEQ014306Oの対応)
+//2018/06/21　MARS YuB ADD End(SEQ014306Oの対応)
+
+//2018/06/21　MARS YuB UPD Start(SEQ014306Oの対応)
+//2018/06/21　MARS YuB UPD End(SEQ014306Oの対応)
+
+//2018/06/21　MARS YuB DEL Start(SEQ014306Oの対応)
+//2018/06/21　MARS YuB DEL End(SEQ014306Oの対応)
+
+
+<%-- 2018/06/21　MARS YuB ADD Start(SEQ014306Oの対応) --%>
+<%-- 2018/06/21　MARS YuB ADD End(SEQ014306Oの対応) --%>
+
+<%-- 2018/06/21　MARS YuB UPD Start(SEQ014306Oの対応) --%>
+<%-- 2018/06/21　MARS YuB UPD End(SEQ014306Oの対応) --%>
+
+<%-- 2018/06/21　MARS YuB DEL Start(SEQ014306Oの対応) --%>
+<%-- 2018/06/21　MARS YuB DEL End(SEQ014306Oの対応) --%>
+
+
+
+
+
+
+
+
+
+
+<%-- 2018/06/21　MARS YuB UPD Start(SEQ014306Oの対応) --%>
+
+                        //parent.document.frames["Main"].document.getElementById("txtUserId").focus();
+
+                        var txtUserId = parent.document.frames["Main"].document.getElementById("txtUserId").disabled;
+
+                        if(txtUserId){
+
+                        
+parent.document.frames["Main"].document.getElementById("chkInUse").focus();
+
+                        }else{
+
+                        
+parent.document.frames["Main"].document.getElementById("txtUserId").focus();
+
+                        }
+
+
+
+
+
+
+
+<%-- 2018/06/21　MARS YuB UPD End(SEQ014306Oの対応) --%>
+
+
+
+SHA-1: ddae1646edfb8d989326a06ecb0471190b5eee5a
+
+
+UpgradeList 8340
+
+web/TNV/glb/OM/OM426/OM426_Data.aspx
+web/TNV/glb/OM/OM426/OM426_Main.aspx
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014306O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+ＲＩＳ 美濃　悠介
+ＲＩＳ 美濃　悠介
+マーズ 于　斌
+マーズ 于　斌
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ013835O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+SEQ013835O
+
+得意先入数マスタ画面
+OM431
+
+＜現象＞
+１．アップロード説明分が正しくない。
+２．アップロード説明分が統一されていない。
+
+<対応>
+下記出力内容とする。
+_＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ここから
+アップロード形式：ｘｘｘｘ形式
+n. aaaaaaaaaa（nカラム目）
+2行目に'aaaaaaaaaa'と記入後、3行目から順番にデータを入れる。
+
+n. aaaaaaaaaa（nカラム目）
+2行目に'aaaaaaaaaa'と記入後、3行目から順番にデータを入れる。
+_______________＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ここまで
+　凡例)
+　　ｘｘｘｘ：ファイル形式　「エクセル」　or　「CSV」
+　　ｎ：カラム順
+　　aaaaaaaaaa：日本語名称
+
+対象は、すべてのアップロードに適用してください。
+
+2018/6/19追記
+検証した結果、作成頂いたエビデンスに不備が有りますので御対応を御願いいたします、
+添付「TNV障害 #9370_ユニシス証跡_02.xlsx」　の、「PO441」「SD480」シート
+===============================
+＜hiện tượng＞
+１．Câu giải thích upload không đúng.
+２．Câu giải thích upload không thống nhất.
+
+<xử lý>
+Output nội dung bên dưới.
+_＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ここから
+format upload：format ｘｘｘｘ
+n. aaaaaaaaaa（column thứ n）
+Sau khi điền 'aaaaaaaaaa' vào dòng thứ 2, input data theo thứ tự từ dòng thứ 3 trở đi.
+
+n. aaaaaaaaaa（column cột thứ n）
+Sau khi điền 'aaaaaaaaaa' vào dòng thứ 2, input data theo thứ tự từ dòng thứ 3 trở đi.
+_______________＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ここまで
+　VD)
+　　ｘｘｘｘ：format file 　「エクセル」　or　「CSV」
+　　ｎ：thứ tự column
+　　aaaaaaaaaa：tên gọi tiếng Nhật
+
+Đối tượng thì hãy áp dụng cho toàn bộ upload.
+
+
+2018/6/19追記
+Sau khi kiểm chứng, có lỗi ở evidence các bạn đã tạo nên nhờ xử lý giúp.
+Tài liệu đính kèm 「TNV障害 #9370_ユニシス証跡_02.xlsx」, sheet 「PO441」「SD480」
+
+
+TNV_UK_NUL
+19911004
+po441
+508
+1100111
+
+
+//2018/06/21 MARS YuB ADD Start(SEQ013835Oの対応)
+//2018/06/21 MARS YuB ADD End(SEQ013835Oの対応)
+
+//2018/06/21 MARS YuB UPD Start(SEQ013835Oの対応)
+//2018/06/21 MARS YuB UPD End(SEQ013835Oの対応)
+
+//2018/06/21 MARS YuB DEL Start(SEQ013835Oの対応)
+//2018/06/21 MARS YuB DEL End(SEQ013835Oの対応)
+
+
+<%-- 2018/06/21 MARS YuB ADD Start(SEQ013835Oの対応) --%>
+<%-- 2018/06/21 MARS YuB ADD End(SEQ013835Oの対応) --%>
+
+<%-- 2018/06/21 MARS YuB UPD Start(SEQ013835Oの対応) --%>
+<%-- 2018/06/21 MARS YuB UPD End(SEQ013835Oの対応) --%>
+
+<%-- 2018/06/21 MARS YuB DEL Start(SEQ013835Oの対応) --%>
+<%-- 2018/06/21 MARS YuB DEL End(SEQ013835Oの対応) --%>
+
+
+
+SHA-1: 7150fe90f47a02ab0be7f7be6500bc8adcf45342
+
+
+UpgradeList 8363
+
+web/TNVCommonFunctionLibrary/DataMigrationUtil.cs
+web/GSK/bin/TNVCommonFunctionLibrary.dll
+web/GSK/bin/TNVCommonFunctionLibrary.pdb
+web/TNV/bin/TNVCommonFunctionLibrary.dll
+web/TNV/bin/TNVCommonFunctionLibrary.pdb
+web/TNVSVC/bin/TNVCommonFunctionLibrary.dll
+web/TNVSVC/bin/TNVCommonFunctionLibrary.pdb
+
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ013835O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014274O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+masterとdevelopは比較
+
+
+TNV障害 #9824
+
+SEQ014274O
+
+SD407_得意先商品変換マスタ　
+得意先情報検索PopUpの検索条件を変更して下さい。
+（詳細は添付「」を御参照下さい）
+
+2018/06/22追記
+238環境のソースがリリース先(180環境)と比べておかしい内容になっているので修正する。
+詳細は添付の「SEQ014274O_20180622.xlsx」をご覧ください。
+
+508
+TNV_UK_RH
+sd407
+19911004
+ベイシア
+
+
+//2018/06/22 MARS YuB ADD Start(SEQ014274Oの対応)
+//2018/06/22 MARS YuB ADD End(SEQ014274Oの対応)
+
+//2018/06/22 MARS YuB UPD Start(SEQ014274Oの対応)
+//2018/06/22 MARS YuB UPD End(SEQ014274Oの対応)
+
+//2018/06/22 MARS YuB DEL Start(SEQ014274Oの対応)
+//2018/06/22 MARS YuB DEL End(SEQ014274Oの対応)
+
+
+<%-- 2018/06/22 MARS YuB ADD Start(SEQ014274Oの対応) --%>
+<%-- 2018/06/22 MARS YuB ADD End(SEQ014274Oの対応) --%>
+
+<%-- 2018/06/22 MARS YuB UPD Start(SEQ014274Oの対応) --%>
+<%-- 2018/06/22 MARS YuB UPD End(SEQ014274Oの対応) --%>
+
+<%-- 2018/06/22 MARS YuB DEL Start(SEQ014274Oの対応) --%>
+<%-- 2018/06/22 MARS YuB DEL End(SEQ014274Oの対応) --%>
+
+
+function Popup_pupCsMaster()
+540
+function pupCsMaster_InstantCheck ()
+559
+var items = TreePopupGateWay ( "http://localhost/TNV", "OM", "C_CsMaster", "TreePopup", "", strCondition, true );
+CsCode/CsName/ParentCs/txtCsCode = 132|ddlDeptCode = 508|
+
+<asp:TextBox ID="txtCsCode" runat="server" CssClass="Edit02" Height="20px" Width="100px" Font-Size="X-Small" BorderWidth="1px" BorderStyle="Inset" MaxLength="12" BackColor="Transparent" TabIndex="4"></asp:TextBox>
+<asp:TextBox ID="txtCsName" runat="server" CssClass="Edit02" Height="20px" Width="210px" Font-Size="X-Small" BorderWidth="1px" BorderStyle="Inset" MaxLength="20" BackColor="Transparent" TabIndex="5"></asp:TextBox>
+<cc4:Popup ID="pupCsMaster" Width="5px" Height="15px" runat="server" PopupURL="/TNV/Common/Forms/Popup/C_CsPopup.aspx"
+    UseCustomPopup="True" ClsName="C_CsMaster" MethodName="TreePopup" Condition="CsCode/CsName/ParentCs/"
+    PopupHeight="370" PopupWidth="580" C01_InstantCheck="True" C02_InstantCheck="True" C03_InstantCheck="False" C01_ID="txtCsCode" C02_ID="txtCsName" C04_ID="ddlDeptCode" WindowTitle="得意先情報" ClearScript="document.all['txtCsCode'].value = '';
+document.all['txtCsName'].value = '';"
+    UseTree="True" />
+
+
+
+
+var strCondition = "CsCode/CsName/ParentCs/" + event.srcElement.name + " = " + event.srcElement.value + "|" 
+
+
+
+
++ "ddlDeptCode = " + document.all['ddlDeptCode'].value + "|";
+
+
+
+
+
+function Popup_Grid_CsCode(iRow)
+947
+function Grid_CsCode_InstantCheck (iRow,strColumnID)
+977
+var items = TreePopupGateWay ( "http://localhost/TNV", "OM", "C_CsMaster", "TreePopup", "", strCondition, true );
+CsCode/CsName/ParentCs/CsCode = 132|
+
+
+<cc1:Column ColID="CsCode" Name="CsCode" MaxLength="12" SubTotalTitlePos="0" Mandatory="True" MergeWidth="140" Width="140" Align="" DateType="" Type="" PopupURL="/TNV/Common/Forms/Popup/C_CsPopup.aspx" UseCustomPopup="True" UsePopup="True"  C01_ID="CsCode" C01_InstantCheck="True" C02_ID="CsName" C02_InstantCheck="True" ClsName="C_CsMaster" Condition="CsCode/CsName/ParentCs/" ImageFolder="/XERP/Common/Image/TreeIcon" MethodName="TreePopup" Module="OM" PopupHeight="370" PopupWidth="580" UseTree="True" WindowTitle="得意先情報" ClearScript="javascript: ClearData(iRow)|" UpperOffset="340" ClearNullBindings="True"  C04_Check="True"  C04_ID="ddlDeptCode"  C04_InstantCheck="True" NonLeafSelection="True"></cc1:Column>
+
+
+
+<cc1:Column ColID="CsCode" Name="CsCode" MaxLength="12" SubTotalTitlePos="0" Mandatory="True" MergeWidth="140" Width="140" Align="" DateType="" Type="" PopupURL="/TNV/Common/Forms/Popup/C_CsPopup.aspx" UseCustomPopup="True" UsePopup="True"  C01_ID="CsCode" C01_InstantCheck="True" C02_ID="CsName" C02_InstantCheck="True" ClsName="C_CsMaster" Condition="CsCode/CsName/ParentCs/" ImageFolder="/XERP/Common/Image/TreeIcon" MethodName="TreePopup" Module="OM" PopupHeight="370" PopupWidth="580" UseTree="True" WindowTitle="得意先情報" ClearScript="javascript: ClearData(iRow)|" UpperOffset="340" ClearNullBindings="True"  C04_ID="ddlDeptCode"  C04_InstantCheck="False" NonLeafSelection="True" C04_Check="True"></cc1:Column>
+
+var strCondition = "CsCode/CsName/ParentCs/" + strColumnID + " = " + event.srcElement.value + "|";
+
+
+
+C04_Check="True" //不在grid里，不需要irow
+C04_ID=ddlDeptCode //不是grid里的控件
+C04_InstantCheck="False" //需要作为条件传入
+
+C01_ID的顺序？？？？？
+
+
+
+c:\00.Work\TNV-Source\SEQ014274O\tnv65-hybrish-source-github\WebServerControl\ExGridCtrl\ExGridCtrl.sln
+ExGrid.cs
+C02_InstantCheck="True"
+不作为条件进行检索，并且为False时，才继续判断C02_Check
+C02_Check="False"
+在grid里，需要irow
+C02_Check="True"
+不在grid里，不需要irow
+
+
+
+SHA-1: 9237e668b1263a3cded6e681424b08294884a789
+
+
+UpgradeList 8359
+
+web/TNV/glb/SD/SD407/SD407.aspx
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014274O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014384O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+SEQ014384O
+
+
+PO458.aspx.cs
+btnUpdateCheck
+protected void btnUpdateCheck_Click(object sender, EventArgs e)
+if(!CheckBeforeUpdateDelete(CASE_UPDATE, strType))
+↓
+PO458.aspx.cs
+private bool CheckBeforeUpdateDelete(int shoriKbn, string strType)
+object[] alCheck = this.Obj.CheckUpdate(G.D, ddlDeptCode.SelectedValue, txtWhCode.Text, txtCsMaker.Text, txtCsCode.Text, txtItemCode.Text, shoriKbn);
+・・・
+string[] arrMonRec = CFL.GetGridComboData("CodeCode", (string[])alExGrid1[ExGrid1.Columns.IndexOf("txtMonRec")]);
+ここに追加
+↓
+PO458.aspx.cs
+protected void btnUpdateCheck_Click(object sender, EventArgs e)
+object[] alresult = this.Obj.UpdateCheck(G.D, ddlDeptCode.SelectedValue, txtWhCode.Text, txtCsMaker.Text, txtCsCode.Text);
+
+
+
+
+
+
+//2018/06/24 MARS YuB ADD Start(SEQ014384Oの対応)
+//2018/06/24 MARS YuB ADD End(SEQ014384Oの対応)
+
+//2018/06/24 MARS YuB UPD Start(SEQ014384Oの対応)
+//2018/06/24 MARS YuB UPD End(SEQ014384Oの対応)
+
+//2018/06/24 MARS YuB DEL Start(SEQ014384Oの対応)
+//2018/06/24 MARS YuB DEL End(SEQ014384Oの対応)
+
+
+<%-- 2018/06/24 MARS YuB ADD Start(SEQ014384Oの対応) --%>
+<%-- 2018/06/24 MARS YuB ADD End(SEQ014384Oの対応) --%>
+
+<%-- 2018/06/24 MARS YuB UPD Start(SEQ014384Oの対応) --%>
+<%-- 2018/06/24 MARS YuB UPD End(SEQ014384Oの対応) --%>
+
+<%-- 2018/06/24 MARS YuB DEL Start(SEQ014384Oの対応) --%>
+<%-- 2018/06/24 MARS YuB DEL End(SEQ014384Oの対応) --%>
+
+
+
+
+
+            //Fri
+            if ((iCheckDigit & 0x0000100) != 0)
+            {
+                if ((iCheckDigit & 0x0000001) != 0)
+                {
+                    if ((iCompDateSat > iCompDateSun) || ((iLeadTimeSat > iLeadTimeSun) && (iLeadTimeSat != iLeadTimeSun)))
+                    {
+                        return 2;
+                    }
+                }
+                if ((iCheckDigit & 0x0000001) != 0)
+                {
+                    if ((iCompDateSat > iCompDateSun) || ((iLeadTimeSat > iLeadTimeSun) && (iLeadTimeSat != iLeadTimeSun)))
+                    {
+                        return 2;
+                    }
+                }
+            }
+
+            //San
+            if ((iCheckDigit & 0x0000010) != 0)
+            {
+                    if ((iCheckDigit & 0x0000001) != 0)
+                    {
+                        if ((iCompDateSat > iCompDateSun) || ((iLeadTimeSat > iLeadTimeSun) && (iLeadTimeSat != iLeadTimeSun)))
+                        {
+                            return 2;
+                        }
+                    }
+            }
+
+
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014384O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014370O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+SEQ014370O
+
+public static int Main(string[] args)
+m_iRecordCount = objBOM12.Process(args);
+↓
+private int Process(string[] args)
+isProcess = m_clsBOM12DB.ImportData(alDataMaster[i], strComCode, strSiteCode, i.ToString(), strBatchShoriDate);
+↓
+public int ImportData(string[] sarOrganizationMasterCSVData,
+if(!this.SaveEmpUser(sarOrganizationMasterCSVData, strComCode, strSiteCode, strBatchShoriDate))
+↓
+public bool SaveEmpUser(string[] sarOrganizationMasterCSVData,
+
+
+
+
+//2018/06/25 MARS YuB ADD Start(SEQ014370Oの対応)
+//2018/06/25 MARS YuB ADD End(SEQ014370Oの対応)
+
+//2018/06/25 MARS YuB UPD Start(SEQ014370Oの対応)
+//2018/06/25 MARS YuB UPD End(SEQ014370Oの対応)
+
+//2018/06/25 MARS YuB DEL Start(SEQ014370Oの対応)
+//2018/06/25 MARS YuB DEL End(SEQ014370Oの対応)
+
+
+<%-- 2018/06/25 MARS YuB ADD Start(SEQ014370Oの対応) --%>
+<%-- 2018/06/25 MARS YuB ADD End(SEQ014370Oの対応) --%>
+
+<%-- 2018/06/25 MARS YuB UPD Start(SEQ014370Oの対応) --%>
+<%-- 2018/06/25 MARS YuB UPD End(SEQ014370Oの対応) --%>
+
+<%-- 2018/06/25 MARS YuB DEL Start(SEQ014370Oの対応) --%>
+<%-- 2018/06/25 MARS YuB DEL End(SEQ014370Oの対応) --%>
+
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014370O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014434O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+TNV障害 #10130
+
+SEQ014434O
+
+po457　特計条件・帳合登録マスタ
+OM422　商品マスタ
+PO441　自動特計エントリー
+
+2001313　亀田製菓（株）
+
+4901313194973
+0013131949700
+
+4901313196786
+
+--2018/06/26 MARS YuB ADD Start(SEQ014434Oの対応)
+--2018/06/26 MARS YuB ADD End(SEQ014434Oの対応)
+
+--2018/06/26 MARS YuB UPD Start(SEQ014434Oの対応)
+--2018/06/26 MARS YuB UPD End(SEQ014434Oの対応)
+
+--2018/06/26 MARS YuB DEL Start(SEQ014434Oの対応)
+--2018/06/26 MARS YuB DEL End(SEQ014434Oの対応)
+
+//2018/06/26 MARS YuB ADD Start(SEQ014434Oの対応)
+//2018/06/26 MARS YuB ADD End(SEQ014434Oの対応)
+
+//2018/06/26 MARS YuB UPD Start(SEQ014434Oの対応)
+//2018/06/26 MARS YuB UPD End(SEQ014434Oの対応)
+
+//2018/06/26 MARS YuB DEL Start(SEQ014434Oの対応)
+//2018/06/26 MARS YuB DEL End(SEQ014434Oの対応)
+
+
+<%-- 2018/06/26 MARS YuB ADD Start(SEQ014434Oの対応) --%>
+<%-- 2018/06/26 MARS YuB ADD End(SEQ014434Oの対応) --%>
+
+<%-- 2018/06/26 MARS YuB UPD Start(SEQ014434Oの対応) --%>
+<%-- 2018/06/26 MARS YuB UPD End(SEQ014434Oの対応) --%>
+
+<%-- 2018/06/26 MARS YuB DEL Start(SEQ014434Oの対応) --%>
+<%-- 2018/06/26 MARS YuB DEL End(SEQ014434Oの対応) --%>
+
+
+--2018/06/26 MARS YuB UPD Start(SEQ014434Oの対応)
+
+
+
+
+
+
+
+//DECLARE @ItemUse nchar(1)
+
+
+
+
+
+
+
+DECLARE @C_RebExceptType nchar(1)
+                            --2018/06/26 MARS YuB UPD End(SEQ014434Oの対応)
+
+--2018/06/26 MARS YuB UPD Start(SEQ014434Oの対応)
+SET @C_RebExceptType = NULL
+
+SELECT @C_RebExceptType= C_RebExceptType
+IF @C_RebExceptType IS NULL
+ELSE IF @C_RebExceptType = '1'
+--2018/06/26 MARS YuB UPD End(SEQ014434Oの対応)
+
+
+SHA-1: a19f53a03b03d68fa68f0e7d16048b29b27a1250
+
+
+UpgradeList 8460
+
+web/TNVSVC/App_Code/PO/C_poRebateManage.asmx.cs
+web/TNVSVC/PO/C_poRebateManage_jpn.resx
+
+
+497a4637e69b0a215cda0472871971547e0d416d
+
+UpgradeList 8460
+
+
+高山商品コード
+JAN商品コード
+ItemCode
+JANCode
+ItemName
+
+高山商品コード
+"CsName/ItemCode/ItemName/C_ItemPackage1Qty/C_ItemJanCode/C_ColdReserving/ItemDeptUse/ItemCode = 0013131949700|ItemCode = 0013131949700|ItemName = |JANCode = |ddlDeptCode = 522|"
+
+"CsName/ItemCode/ItemName/C_ItemPackage1Qty/C_ItemJanCode/C_ColdReserving/ItemDeptUse/ItemName = 皆さん|ItemCode = |ItemName = 皆さん|JANCode = |ddlDeptCode = 522|"
+"CsName/ItemCode/ItemName/C_ItemPackage1Qty/C_ItemJanCode/C_ColdReserving/ItemDeptUse/ItemName = ハイハイン|ItemCode = |ItemName = ハイハイン|JANCode = |ddlDeptCode = 522|"
+
+JS
+↓
+TNVSVC\App_Code\CGW.asmx.cs
+public ArrayList GridGateWay (bool bStartQuery, string strModule, string strClassName, string strMethodName, string strWhereClause, string strCondition, object[] Conditions, object[] GDObj )
+alResult = gwOM.GridGateWay ( bStartQuery, strClassName, strMethodName, strWhereClause, strCondition, Conditions, GDObj );
+↓
+TNVSVC\App_Code\CommGW\gwOM.asmx.cs
+public ArrayList GridGateWay(bool bStartQuery, string strClassName, string strMethodName, string strWhereClause, string strCondition, object[] Conditions, object[] GDObj)
+return Obj.Popup(bStartQuery, strWhereClause, strCondition, Conditions, GDObj);
+↓
+TNVSVC\App_Code\OM\C_ItemMaster.asmx.cs
+public ArrayList Popup(bool bStartQuery, string strWhereClause, string strCondition, object[] Conditions, object[] GDObj)
+
+
+
+NonLeafSelection=True
+口座コードが表示される
+得意先表示される
+
+NonLeafSelection=False
+口座コードが表示されない
+得意先表示されない
+
+
+C04_Check="True" //不在grid里，不需要irow
+C04_ID=ddlDeptCode //不是grid里的控件
+C04_InstantCheck="False" //需要作为条件传入
+
+C01-C07是控件上的顺序取值，与condition和webservice一致，取值时要加hide（如果不加hide，Popup画面会显示出来），画面上也要加hide接收
+C08-C20开始是Popup画面的顺序显示
+比如：
+condition中有C_RebExceptType，用来进行数据查询的字段名
+C07的ID是CRebExceptType，用来对应画面显示的，<cc1:Column ColID="CRebExceptType" Name="CRebExceptType" DateType="" Type="" Hidden="true"></cc1:Column>
+
+DB字段名？？？
+
+
+C_RebExceptType
+
+function GridStatus_onChanged(iRow) {
+
+if (document.all['Grid_RebateUse_' + iRow].checked)
+
+
+document.all['Grid_Status_' + iRow].value = '使用中';
+
+else {
+
+
+document.all['Grid_Status_' + iRow].value = '未使用';
+
+}
+}
+
+alert(strMsg + 'は数値かハイフンか括弧を入力して下さい');
+
+
+
+
+--2018/06/27 MARS YuB ADD Start(SEQ014434Oの対応)
+--2018/06/27 MARS YuB ADD End(SEQ014434Oの対応)
+
+--2018/06/27 MARS YuB UPD Start(SEQ014434Oの対応)
+--2018/06/27 MARS YuB UPD End(SEQ014434Oの対応)
+
+--2018/06/27 MARS YuB DEL Start(SEQ014434Oの対応)
+--2018/06/27 MARS YuB DEL End(SEQ014434Oの対応)
+
+//2018/06/27 MARS YuB ADD Start(SEQ014434Oの対応)
+//2018/06/27 MARS YuB ADD End(SEQ014434Oの対応)
+
+//2018/06/27 MARS YuB UPD Start(SEQ014434Oの対応)
+//2018/06/27 MARS YuB UPD End(SEQ014434Oの対応)
+
+//2018/06/27 MARS YuB DEL Start(SEQ014434Oの対応)
+//2018/06/27 MARS YuB DEL End(SEQ014434Oの対応)
+
+
+<%-- 2018/06/27 MARS YuB ADD Start(SEQ014434Oの対応) --%>
+<%-- 2018/06/27 MARS YuB ADD End(SEQ014434Oの対応) --%>
+
+<%-- 2018/06/27 MARS YuB UPD Start(SEQ014434Oの対応) --%>
+<%-- 2018/06/27 MARS YuB UPD End(SEQ014434Oの対応) --%>
+
+<%-- 2018/06/27 MARS YuB DEL Start(SEQ014434Oの対応) --%>
+<%-- 2018/06/27 MARS YuB DEL End(SEQ014434Oの対応) --%>
+
+
+SEQ014434Oの対応　追加
+SEQ014434Oの対応　追加　マージ
+SEQ014434Oの対応
+
+b9b3ac09c88731d5e5b5f922fa40a1f4be144a79
+
+UpgradeList　8288
+
+web/TNV/glb/PO/PO457/PO457.aspx
+web/TNVSVC/App_Code/OM/C_ItemMaster.asmx.cs
+web/TNVSVC/App_Code/PO/C_poRebateManage.asmx.cs
+
+
+99571be0082670fa96cec05c43f1124d75c9186e
+
+UpgradeList　8288
+
+web/TNV/glb/PO/PO457/PO457.aspx
+
+
+SEQ014434Oの対応 ItemUse マージ
+
+SHA-1: 249998c7ff28c8bbea149435ab827389b57110a7
+
+UpgradeList　8460
+
+web/TNV/glb/PO/PO457/PO457.aspx
+web/TNVSVC/App_Code/OM/C_ItemMaster.asmx.cs
+web/TNVSVC/App_Code/PO/C_poRebateManage.asmx.cs
+
+
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014434O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014644O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+
+
+
+20180703
+508
+0508
+2001005
+
+
+
+
+SEQ014644O
+
+MM419_StockDetailPopup.aspx
+
+2个SQL文要修改
+
+
+14644
+mm419　在庫照会
+
+spsdAcceptUpd
+
+
+//2018/07/03 MARS YuB ADD Start(SEQ014644Oの対応)
+//2018/07/03 MARS YuB ADD End(SEQ014644Oの対応)
+
+//2018/07/03 MARS YuB UPD Start(SEQ014644Oの対応)
+//2018/07/03 MARS YuB UPD End(SEQ014644Oの対応)
+
+//2018/07/03 MARS YuB DEL Start(SEQ014644Oの対応)
+//2018/07/03 MARS YuB DEL End(SEQ014644Oの対応)
+
+
+
+POPUP:
+ReserveItemQty　⇒　C_ReservePieceQty
+
+
+415aa20bc70205d144fe468eb559214d66cda447
+8698
+web/TNVSVC/App_Code/NMM/C_mmStockRefer.asmx.cs
+
+0013131596400
+
+
+
+SubsdAcceptI_C_PieceQty 32
+SubpoOsOrderVndMatI_C_IndividualOrderQty 0
+C_poOsApartH1_C_IndividualApartQty 0
+
+
+a7d09d3eecd9eb0bb2c71310b8725e3265905094
+
+
+誤：
+可用数（総バラ数）=現在庫-引当数-取置数-調整数-引当バラ数
+390=1000-200-100-10-300
+
+正：
+可用数（総バラ数）=現在庫-引当数-（取置数-調整数）-引当バラ数
+410=1000-200-(100-10)-300
+
+
+現在庫                  OhQty
+引当数                  C_ReserveQty
+現在庫-引当数            C_mmStockM_OhQty
+取置数                  HoldQty
+調整数                  AdjustQty
+引当バラ数               C_ReservePieceQty
+
+
+No.                                                  
+C_CenterCode           C_CenterCode                  
+倉庫                    WhCode                        
+倉庫                    WhName                        
+ＪＡＮコード                C_ItemJanCode                 
+代表商品コード            C_MainItemCode                
+髙山商品コード            TakayamaItemCode              Hidden
+商品名称（漢字）           ItemName                      
+規格                    ItemSpec                      
+InvStatus              InvStatus                     
+区分                    InvStatusName                 
+賞味期限                ExpDate                       Hidden
+B入数                   C_ItemPackage1Qty             ボール入数
+可用ボール数              C_CurrentStockBlockNum        
+可用端数バラ              C_CurrentStockIndNum          
+可用総バラ数              C_CurrentStockIndTotal        
+入荷予定バラ数            C_ExpInBlockNum               
+出荷予定バラ数            C_ExpOutBlockNum              
+予定在庫ボール数          C_ExpStockBlockNum            
+予定在庫端数バラ          C_ExpStockIndNum              
+予定在庫総バラ数          C_ExpStockIndTotal            
+仕入先コード              C_ItemMakerCode               
+仕入先                  CsName                        
+最終入荷日              C_LastArrivalDate             
+最終出荷日              C_LastShipDate                
+最終棚卸日              C_LastInspDate                
+
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014644O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓SEQ014708O 対応↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+
+
+
+
+SEQ014708O
+
+PO424
+
+//2018/07/05 MARS YuB ADD Start(SEQ014708Oの対応)
+//2018/07/05 MARS YuB ADD End(SEQ014708Oの対応)
+
+//2018/07/05 MARS YuB UPD Start(SEQ014708Oの対応)
+//2018/07/05 MARS YuB UPD End(SEQ014708Oの対応)
+
+//2018/07/05 MARS YuB DEL Start(SEQ014708Oの対応)
+//2018/07/05 MARS YuB DEL End(SEQ014708Oの対応)
+
+9fd4efe95bd35d99446f6d7346162a894993a189
+--073e387780623f4db3b887b8187ff614d5646790
+
+upradlist 8796
+
+web/TNVSVC/App_Code/PO/C_poSendDataOrder.asmx.cs
+
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑SEQ014708O 対応↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+
+
+
+
+
+
+
+
+
+
+tnv65-hybrish-source-github
+https://github.com/TNV65-project/tnv65-hybrish-source-github.git
+
+
+
+git revert
+https://blog.csdn.net/HobHunter/article/details/79462899
+
+
+
+
+varWindow = window.open ("
+/TNV/Common/Forms/Popup/C_CsMasterPopup.aspx
+?&GridCheck=Y
+&WindowTitle=取引先情報
+&Module=OM
+&ClsName=C_CsMaster
+&MethodName=Popup
+&WhereClause=
+&Condition=CsCode%2fCsName%2fEmpName%2fDeptName%2fCodeName%2f
+&PopupHeight=370
+&PopupWidth=580
+&OKFunction=Grid_CsCode_RaiseEvent
+&BindingFunction=Grid_CsCode_PopupBind
+&iRow=" + iRow + "
+&C01_ID=CsCode
+&C02_ID=CsName
+&C07_ID=CsName
+&C11_ID=CodeDesrc
+&C12_ID=CsCode
+&C19_ID="+ checkCsPop +"
+&C01_IDG=Grid_CsCode_" + iRow + "
+&C02_IDG=Grid_CsName_" + iRow+ "
+&C07_IDG=Grid_CsName_" + iRow  + "
+&C11_IDG=Grid_CodeDesrc_" + iRow + "
+&C12_IDG=Grid_CsCode_" + iRow + "
+&C19_IDG=Grid_" + checkCsPop + "_" + iRow + ""
+, ''
+, 'Width=580
+, Height=370
+,Left=' + ( window.event.screenX - 200 ) + '
+,Top=' + ( window.event.screenY + 10 - 200 ) + '
+, menubar=no
+, toolbar=no
+, location=no
+, directories=no
+, status=no
+, scrollbars=no
+, resizable=no'
+);
+
+
+
+
+查看bash信息：
+ps | grep $$
+"c:\Program Files\Git\bin\sh.exe"
+
+
+Git操作：
+https://www.cnblogs.com/flipped/p/5184822.html
+https://github.com/TNV65-project/tnv65-hybrish-source-github.git
+
+
+
+
+
+
+
+ポップアップ画面にメイン画面の検索文字が引き継がれるものとそうでないものがある。
+＜対象ポップアップ検索画面＞
+・メーカー情報
+・担当者情報
+・得意先情報
+・高山商品コード情報
+・様分ＩＤ情報
+・統一商品コード情報
+・商品名称情報
+・出荷先情報
+
+親画面で入力した検索文字が上記ポップアップ画面に引き継がれない。
+（「その他出庫」画面は、誤った引継ぎ方をしている。）
+画面によっては、引継がれているものもあるため統一する必要がる。
+
+【期待値】
+ポップアップ検索画面に検索文字が初期表示される。
+（各ポップアップ画面の動作を統一にする必要がある）
+
+横展開物。19日（火）までにお願いいたしたく。
+============================
+Title: ở màn hình Popup có　item không được kế thừa ký tự tìm kiếm của màn hình main(ở ND)
+
+ở màn hình Popup có　item không được kế thừa ký tự tìm kiếm của màn hình main
+＜Màn hình tìm kiếm Popup đối tượng＞
+・メーカー情報
+・担当者情報
+・得意先情報
+・高山商品コード情報
+・様分ＩＤ情報
+・統一商品コード情報
+・商品名称情報
+・出荷先情報
+
+Ký tự tìm kiếm đã input ở màn hình cha chưa được kế thực ở các màn hình Popup mô tả bên trên。
+（Ở màn hình 「その他出庫」 thì、đang thực hiện sai cách truyền。）
+Tuy theo màn hình thì、cũng có các item đã được kê thừa rồi vậy nên cần thống nhất。
+
+【Giá trị kỳ vọng】
+ký tự tìm kiếm ở hình tìm kiếm Popup sẽ được hiển thị khởi tạo。
+（Cần thống nhất hoạt động của các màn hình Popup）
+
+Defect triển khai ngang。Deadline: 19日（火）。
+
+
+
+14275
+
+14370
+
+
+
+RDM10130
+
+
+
+14146
+
+存储过程
+
+查找DB用的哪个？
+下記の通りにDB接続【XERPClients.iniにより、接続情報が取れる】
+web\GSKCommonFunctionLibrary\Client.cs
+WebServerControl\CommonFunctionLibrary\Client.cs(17,10)  [UTF-8]: 
+
+public ClientCore()
+
+
+Provider=SQLOLEDB;Data Source= 192.1.107.245;User ID=sa;Initial Catalog=TNV_OM;Connect Timeout=3600
+
+
+
+
+
+PO424
+
+14708
+
+
+
+
+
+
+
+
